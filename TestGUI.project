@@ -1,4 +1,5 @@
-<project project_version="1.6">
+<project project_version="1.7">
+    <extensions/>
     <project_settings>
         <general>
             <setting name="generalname" value="TestGUI"/>
@@ -30,7 +31,7 @@
             <setting name="featurenotifications" value="0"/>
             <setting name="featurevr" value="0"/>
             <setting name="generallocalmultiplayer" value="0"/>
-            <setting name="generaluuid" value=""/>
+            <setting name="generaluuid" value="513748a4-89c2-4978-9d57-7607828408ef"/>
             <desktop>
                 <setting name="desktopwidth" value="0"/>
                 <setting name="desktopheight" value="0"/>
@@ -69,5 +70,4 @@
             </mobile>
         </general>
     </project_settings>
-    <extensions/>
 </project>
