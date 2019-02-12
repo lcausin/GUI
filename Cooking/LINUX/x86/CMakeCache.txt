@@ -18,7 +18,7 @@
 BUILD_CONFIG_NAME:UNINITIALIZED=steam3
 
 //No help, variable specified on the command line.
-BUILD_FILE_PATH:UNINITIALIZED=/home/lcausin/tmp/tmpGccEjQ.xml
+BUILD_FILE_PATH:UNINITIALIZED=/home/lcausin/tmp/tmpKNB698.xml
 
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
