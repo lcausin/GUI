@@ -1,4 +1,4 @@
-<project project_version="1.7">
+<project project_version="1.8">
     <extensions>
         <extension name="SAAS"/>
         <extension name="VCS"/>
@@ -13,8 +13,8 @@
             <setting name="generalsplashscreen" value="../../proj2/Carre_gris.png"/>
             <setting name="savedata_icon" value="../../proj2/Carre_gris.png"/>
             <setting name="background_img" value="../../proj2/proj2.project"/>
-            <setting name="generalmajor" value="0"/>
-            <setting name="generalminor" value="0"/>
+            <setting name="generalmajor" value="1"/>
+            <setting name="generalminor" value="8"/>
             <setting name="parentallevel" value="1"/>
             <setting name="app_type" value="0"/>
             <setting name="hdr" value="0"/>
