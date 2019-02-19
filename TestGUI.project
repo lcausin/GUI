@@ -9,10 +9,10 @@
             <setting name="generalgeneric" value="./Generic/"/>
             <setting name="generalsource" value="./src/"/>
             <setting name="generaltmp" value="./Cooking/"/>
-            <setting name="generalicon" value=""/>
-            <setting name="generalsplashscreen" value="../../proj2/Carre_gris.png"/>
-            <setting name="savedata_icon" value="../../proj2/Carre_gris.png"/>
-            <setting name="background_img" value="../../proj2/proj2.project"/>
+            <setting name="generalicon" value="ressources/Carre_gris.png"/>
+            <setting name="generalsplashscreen" value="ressources/Carre_gris.png"/>
+            <setting name="savedata_icon" value="ressources/Carre_gris.png"/>
+            <setting name="background_img" value="ressources/Carre_gris.png"/>
             <setting name="generalmajor" value="1"/>
             <setting name="generalminor" value="8"/>
             <setting name="parentallevel" value="1"/>
