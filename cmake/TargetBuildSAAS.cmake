@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.2.1)
 
+message("SHINE_BASE_DIR = $ENV{SHINE_BASE_DIR}")
 find_program(SHGAMEPACKAGER_EXECUTABLE ShGamePackager HINTS ${SHINE_TOOLS_DIR} "$ENV{SHINE_BASE_DIR}/bin/tools/" PATHS /usr/local/
 	NO_DEFAULT_PATH
 	NO_CMAKE_ENVIRONMENT_PATH
