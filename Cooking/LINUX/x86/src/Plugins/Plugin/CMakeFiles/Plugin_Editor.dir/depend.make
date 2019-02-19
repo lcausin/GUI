@@ -230,7 +230,6 @@ src/Plugins/Plugin/CMakeFiles/Plugin_Editor.dir/Plugin.cpp.o: /home/lcausin/Prog
 src/Plugins/Plugin/CMakeFiles/Plugin_Editor.dir/Plugin.cpp.o: /home/lcausin/Programs/Shine_External/include/ShSDK/ShSDK_GUIControlEditBox.h
 src/Plugins/Plugin/CMakeFiles/Plugin_Editor.dir/Plugin.cpp.o: /home/lcausin/Programs/Shine_External/include/ShSDK/ShSDK_GUIControlImage.h
 src/Plugins/Plugin/CMakeFiles/Plugin_Editor.dir/Plugin.cpp.o: /home/lcausin/Programs/Shine_External/include/ShSDK/ShSDK_GUIControlImageList.h
-src/Plugins/Plugin/CMakeFiles/Plugin_Editor.dir/Plugin.cpp.o: /home/lcausin/Programs/Shine_External/include/ShSDK/ShSDK_GUIControlPanel.h
 src/Plugins/Plugin/CMakeFiles/Plugin_Editor.dir/Plugin.cpp.o: /home/lcausin/Programs/Shine_External/include/ShSDK/ShSDK_GUIControlRadioButton.h
 src/Plugins/Plugin/CMakeFiles/Plugin_Editor.dir/Plugin.cpp.o: /home/lcausin/Programs/Shine_External/include/ShSDK/ShSDK_GUIControlRatingLine.h
 src/Plugins/Plugin/CMakeFiles/Plugin_Editor.dir/Plugin.cpp.o: /home/lcausin/Programs/Shine_External/include/ShSDK/ShSDK_GUIControlSlider.h

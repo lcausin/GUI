@@ -15,10 +15,10 @@
 ########################
 
 //No help, variable specified on the command line.
-BUILD_CONFIG_NAME:UNINITIALIZED=steam3
+BUILD_CONFIG_NAME:UNINITIALIZED=build_local_zip
 
 //No help, variable specified on the command line.
-BUILD_FILE_PATH:UNINITIALIZED=/home/lcausin/tmp/tmpZRkVOd.xml
+BUILD_FILE_PATH:UNINITIALIZED=/home/lcausin/tmp/tmpdqPaFD.xml
 
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
