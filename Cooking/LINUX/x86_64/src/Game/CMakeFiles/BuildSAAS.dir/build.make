@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/lcausin/tmp/Cooking/LINUX/x86_64
 include src/Game/CMakeFiles/BuildSAAS.dir/progress.make
 
 src/Game/CMakeFiles/BuildSAAS: src/Game/Game
-	cd /home/lcausin/tmp/Cooking/LINUX/x86_64/src/Game && /home/lcausin/Programs/Shine_External/Bin/Tools/ShGamePackager --copy /home/lcausin/tmp/tmpjI5lD1.xml build_local_zip /home/lcausin/tmp/Cooking/LINUX/x86_64/src/Game/Game x86_64
+	cd /home/lcausin/tmp/Cooking/LINUX/x86_64/src/Game && /home/lcausin/Programs/Shine_External/Bin/Tools/ShGamePackager --copy /home/lcausin/tmp/tmp5ehrAq.xml build_local_zip /home/lcausin/tmp/Cooking/LINUX/x86_64/src/Game/Game x86_64
 
 BuildSAAS: src/Game/CMakeFiles/BuildSAAS
 BuildSAAS: src/Game/CMakeFiles/BuildSAAS.dir/build.make
