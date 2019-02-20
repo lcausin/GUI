@@ -162,6 +162,19 @@ Game/fast:
 	$(MAKE) -f src/Game/CMakeFiles/Game.dir/build.make src/Game/CMakeFiles/Game.dir/build
 .PHONY : Game/fast
 
+#=============================================================================
+# Target rules for targets named BuildSAAS
+
+# Build rule for target.
+BuildSAAS: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BuildSAAS
+.PHONY : BuildSAAS
+
+# fast build rule for target.
+BuildSAAS/fast:
+	$(MAKE) -f src/Game/CMakeFiles/BuildSAAS.dir/build.make src/Game/CMakeFiles/BuildSAAS.dir/build
+.PHONY : BuildSAAS/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -174,6 +187,7 @@ help:
 	@echo "... Plugin_Editor"
 	@echo "... Extension"
 	@echo "... Game"
+	@echo "... BuildSAAS"
 .PHONY : help
 
 

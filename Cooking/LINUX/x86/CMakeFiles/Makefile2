@@ -265,6 +265,7 @@ src/Game/all: src/Game/CMakeFiles/Game.dir/all
 
 # Convenience name for "clean" pass in the directory.
 src/Game/clean: src/Game/CMakeFiles/Game.dir/clean
+src/Game/clean: src/Game/CMakeFiles/BuildSAAS.dir/clean
 
 .PHONY : src/Game/clean
 
@@ -307,6 +308,38 @@ src/Game/CMakeFiles/Game.dir/clean:
 
 # clean rule for target.
 clean: src/Game/CMakeFiles/Game.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target src/Game/CMakeFiles/BuildSAAS.dir
+
+# All Build rule for target.
+src/Game/CMakeFiles/BuildSAAS.dir/all: src/Game/CMakeFiles/Game.dir/all
+	$(MAKE) -f src/Game/CMakeFiles/BuildSAAS.dir/build.make src/Game/CMakeFiles/BuildSAAS.dir/depend
+	$(MAKE) -f src/Game/CMakeFiles/BuildSAAS.dir/build.make src/Game/CMakeFiles/BuildSAAS.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lcausin/tmp/Cooking/LINUX/x86/CMakeFiles --progress-num= "Built target BuildSAAS"
+.PHONY : src/Game/CMakeFiles/BuildSAAS.dir/all
+
+# Build rule for subdir invocation for target.
+src/Game/CMakeFiles/BuildSAAS.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lcausin/tmp/Cooking/LINUX/x86/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 src/Game/CMakeFiles/BuildSAAS.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lcausin/tmp/Cooking/LINUX/x86/CMakeFiles 0
+.PHONY : src/Game/CMakeFiles/BuildSAAS.dir/rule
+
+# Convenience name for target.
+BuildSAAS: src/Game/CMakeFiles/BuildSAAS.dir/rule
+
+.PHONY : BuildSAAS
+
+# clean rule for target.
+src/Game/CMakeFiles/BuildSAAS.dir/clean:
+	$(MAKE) -f src/Game/CMakeFiles/BuildSAAS.dir/build.make src/Game/CMakeFiles/BuildSAAS.dir/clean
+.PHONY : src/Game/CMakeFiles/BuildSAAS.dir/clean
+
+# clean rule for target.
+clean: src/Game/CMakeFiles/BuildSAAS.dir/clean
 
 .PHONY : clean
 

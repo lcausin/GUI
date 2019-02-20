@@ -70,4 +70,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/Plugins/Plugin/CMakeFiles/Plugin_Editor.dir/DependInfo.cmake"
   "src/Extension/CMakeFiles/Extension.dir/DependInfo.cmake"
   "src/Game/CMakeFiles/Game.dir/DependInfo.cmake"
+  "src/Game/CMakeFiles/BuildSAAS.dir/DependInfo.cmake"
   )
