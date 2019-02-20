@@ -13,8 +13,10 @@ void ShEntryPoint::OnPreInitialize(void)
  */
 void ShEntryPoint::OnPostInitialize(void)
 {
-	Plugin * pPlugin = new Plugin();
-	ShApplication::RegisterPlugin(pPlugin);
+	//Plugin * pPlugin = new Plugin();
+	//ShApplication::RegisterPlugin(pPlugin);
+
+	ShGUI::LoadGUIAndSSS(CShIdentifier("guitest"), ShGUI::GetRootControl());
 }
 
 /**

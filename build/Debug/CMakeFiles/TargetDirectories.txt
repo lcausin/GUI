@@ -1,0 +1,16 @@
+/home/lcausin/Documents/GUI/build/Debug/CMakeFiles/rebuild_cache.dir
+/home/lcausin/Documents/GUI/build/Debug/CMakeFiles/edit_cache.dir
+/home/lcausin/Documents/GUI/build/Debug/src/CMakeFiles/rebuild_cache.dir
+/home/lcausin/Documents/GUI/build/Debug/src/CMakeFiles/edit_cache.dir
+/home/lcausin/Documents/GUI/build/Debug/src/Plugins/CMakeFiles/rebuild_cache.dir
+/home/lcausin/Documents/GUI/build/Debug/src/Plugins/CMakeFiles/edit_cache.dir
+/home/lcausin/Documents/GUI/build/Debug/src/Plugins/Plugin/CMakeFiles/rebuild_cache.dir
+/home/lcausin/Documents/GUI/build/Debug/src/Plugins/Plugin/CMakeFiles/edit_cache.dir
+/home/lcausin/Documents/GUI/build/Debug/src/Plugins/Plugin/CMakeFiles/Plugin.dir
+/home/lcausin/Documents/GUI/build/Debug/src/Plugins/Plugin/CMakeFiles/Plugin_Editor.dir
+/home/lcausin/Documents/GUI/build/Debug/src/Extension/CMakeFiles/rebuild_cache.dir
+/home/lcausin/Documents/GUI/build/Debug/src/Extension/CMakeFiles/Extension.dir
+/home/lcausin/Documents/GUI/build/Debug/src/Extension/CMakeFiles/edit_cache.dir
+/home/lcausin/Documents/GUI/build/Debug/src/Game/CMakeFiles/rebuild_cache.dir
+/home/lcausin/Documents/GUI/build/Debug/src/Game/CMakeFiles/Game.dir
+/home/lcausin/Documents/GUI/build/Debug/src/Game/CMakeFiles/edit_cache.dir
