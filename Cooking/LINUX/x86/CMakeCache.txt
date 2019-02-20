@@ -15,10 +15,10 @@
 ########################
 
 //No help, variable specified on the command line.
-BUILD_CONFIG_NAME:UNINITIALIZED=build_local_zip
+BUILD_CONFIG_NAME:UNINITIALIZED=build_local_zip_OpenGL2
 
 //No help, variable specified on the command line.
-BUILD_FILE_PATH:UNINITIALIZED=/home/lcausin/tmp/tmpk51Wtm.xml
+BUILD_FILE_PATH:UNINITIALIZED=/home/lcausin/tmp/tmp1rziu9.xml
 
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
