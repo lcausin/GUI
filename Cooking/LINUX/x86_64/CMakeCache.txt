@@ -18,7 +18,7 @@
 BUILD_CONFIG_NAME:UNINITIALIZED=build_local_zip
 
 //No help, variable specified on the command line.
-BUILD_FILE_PATH:UNINITIALIZED=/home/lcausin/tmp/tmpJpcx2M.xml
+BUILD_FILE_PATH:UNINITIALIZED=/home/lcausin/tmp/tmpHeE2pb.xml
 
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
@@ -152,7 +152,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=TestGUI
+CMAKE_PROJECT_NAME:STATIC=GUI_GIT
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -223,6 +223,12 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Dependencies for the target
 Extension_LIB_DEPENDS:STATIC=general;;
+
+//Value Computed by CMake
+GUI_GIT_BINARY_DIR:STATIC=/home/lcausin/tmp/Cooking/LINUX/x86_64
+
+//Value Computed by CMake
+GUI_GIT_SOURCE_DIR:STATIC=/home/lcausin/tmp
 
 //Path to a file.
 OPENAL_INCLUDE_DIR:PATH=/usr/include/AL
