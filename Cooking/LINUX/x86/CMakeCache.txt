@@ -18,7 +18,7 @@
 BUILD_CONFIG_NAME:UNINITIALIZED=build_local_zip_OpenGL2
 
 //No help, variable specified on the command line.
-BUILD_FILE_PATH:UNINITIALIZED=/home/lcausin/tmp/tmpXKdL77.xml
+BUILD_FILE_PATH:UNINITIALIZED=/home/lcausin/tmp/tmpY3zhxH.xml
 
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
@@ -279,7 +279,7 @@ SHGAMEPACKAGER_EXECUTABLE:FILEPATH=/home/lcausin/Programs/Shine_External/Bin/Too
 SHINE_EDITOR_EXT_DIR:PATH=/home/lcausin/Programs/Shine_External/Bin/Extensions
 
 //No help, variable specified on the command line.
-SHINE_TOOLS_DIR:UNINITIALIZED=/mnt/shine/Shine/MainLine/Build/Linux_CodeBlocks_Makefiles/Compiled/Bin/x86_64/Tools/
+SHINE_TOOLS_DIR:UNINITIALIZED=/home/lcausin/Programs/Shine_External/bin/Tools/
 
 //ShSDK Editor libraries
 SHSDK_EDITOR_LIBRARIES:PATH=
