@@ -1,8 +1,6 @@
 cmake_minimum_required(VERSION 3.1)
 
-project(GUI_GIT)
-
-set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/Modules/")
+project(TestGUI)
 
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 
@@ -18,7 +16,16 @@ else (MSVC)
 endif (MSVC)
 
 # Find shine Engine libraries
-find_package(ShSDK REQUIRED StubUserSystem ShEntryPoint)
+OPTION(SHINE_INTERNAL "Use Internal ShSDK libraries")
+IF(SHINE_INTERNAL)
+SET(USE_MODULE "NO_MODULE")
+ELSE(SHINE_INTERNAL)
+SET(USE_MODULE "")
+ENDIF(SHINE_INTERNAL)
+
+LIST(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake/Modules/")
+
+find_package(ShSDK REQUIRED StubUserSystem ShEntryPoint ${USE_MODULE})
 
 set(SHSDK_EDITOR_LIBRARIES "" CACHE PATH "ShSDK Editor libraries") # ugly
 set(SHINE_EDITOR_EXT_DIR "$ENV{SHINE_BASE_DIR}/Bin/Extensions" CACHE PATH "Extension directory") # ugly too
