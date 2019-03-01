@@ -6,8 +6,8 @@
             <setting name="generalgeneric" value="./Generic/"/>
             <setting name="generalsource" value="./src/"/>
             <setting name="generaltmp" value="./Cooking/"/>
-            <setting name="generalicon" value="./Assets/shine_research.jpg"/>
-            <setting name="generalsplashscreen" value="./Assets/shine_research.jpg"/>
+            <setting name="generalicon" value=""/>
+            <setting name="generalsplashscreen" value=""/>
             <setting name="savedata_icon" value=""/>
             <setting name="background_img" value=""/>
             <setting name="generalmajor" value="0"/>
