@@ -1,5 +1,8 @@
 <project project_version="1.8">
-    <extensions/>
+    <extensions>
+        <extension name="SAAS"/>
+        <extension name="VCS"/>
+    </extensions>
     <project_settings>
         <general>
             <setting name="generalname" value="TestGUI"/>
