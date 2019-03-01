@@ -1,2 +1,0 @@
-/usr/bin/ar qc libPlugin.a  CMakeFiles/Plugin.dir/Plugin.cpp.o
-/usr/bin/ranlib libPlugin.a
