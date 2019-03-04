@@ -19,7 +19,9 @@ set_property(TARGET Plugin_Editor APPEND PROPERTY COMPILE_DEFINITIONS "${SHSDK_C
 set_property(TARGET Plugin_Editor APPEND PROPERTY COMPILE_FLAGS "${SHSDK_COMPILE_FLAGS}")
 set_property(TARGET Plugin_Editor APPEND PROPERTY COMPILE_DEFINITIONS "SH_EDITOR=1" "_INTERNAL_DLL") # FIXME
 set_property(TARGET Plugin_Editor APPEND PROPERTY POSITION_INDEPENDENT_CODE True)
-
+if(NOT TARGET Plugin_Editor)
+   message("Plugin_Editor library doesn't exist")
+endif()
 message("SHSDK_EDITOR_LIBRARIES = ${SHSDK_EDITOR_LIBRARIES}")
 target_link_libraries(Plugin_Editor PUBLIC "${SHSDK_EDITOR_LIBRARIES}")
 target_include_directories(Plugin_Editor PUBLIC "${SHSDK_INCLUDE_DIRS}")
