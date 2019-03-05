@@ -12,7 +12,7 @@ target_link_libraries(Plugin PUBLIC "${SHSDK_LIBRARIES}")
 target_include_directories(Plugin PUBLIC "${SHSDK_INCLUDE_DIRS}")
 
 # Compile to use it in the Shine Editor
-add_library(Plugin_Editor SHARED ${SOURCES_PLUGIN_IMPL})
+add_library(Plugin_Editor OBJECT ${SOURCES_PLUGIN_IMPL})
 
 set_property(TARGET Plugin_Editor PROPERTY FOLDER "Editor")
 set_property(TARGET Plugin_Editor APPEND PROPERTY COMPILE_DEFINITIONS "${SHSDK_COMPILE_DEFINITIONS}")
