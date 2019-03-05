@@ -18,7 +18,7 @@
 BUILD_CONFIG_NAME:UNINITIALIZED=build_local_zip_OpenGL3
 
 //No help, variable specified on the command line.
-BUILD_FILE_PATH:UNINITIALIZED=/tmp/saas_git_clone/tmp9KOfvf.xml
+BUILD_FILE_PATH:UNINITIALIZED=/tmp/saas_git_clone/tmpLqRW26.xml
 
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
