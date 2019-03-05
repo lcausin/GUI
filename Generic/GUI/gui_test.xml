@@ -1,0 +1,11 @@
+<gui version="1.2">
+    <sss>
+        <style pseudo_state="default" id="container_001" offset_x="-360.000000" offset_x_unit="auto" offset_y="-123.000000" offset_y_unit="auto"/>
+        <style pseudo_state="default" id="button_001" offset_x="-191.000000" offset_x_unit="auto" offset_y="-309.000000" offset_y_unit="auto" margin_right="0.000000" margin_right_unit="auto" margin_left="0.000000" margin_left_unit="auto" font="futura book_45.abc" font_size="50.000000" font_size_unit="auto"/>
+    </sss>
+    <root>
+        <container id="container_001" pseudo_state="default" layout_type="stretch_layout" fill_width="1" fill_height="1" keep_background_ratio="1">
+            <button id="button_001" pseudo_state="default" id_next_focus="button_001" id_prev_focus="button_001" is_first_focus="1" text="Hello GUI !!!!!!" text_type="rich"/>
+        </container>
+    </root>
+</gui>
