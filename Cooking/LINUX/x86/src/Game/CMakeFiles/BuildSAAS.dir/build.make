@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /tmp/saas_git_clone/Cooking/LINUX/x86
 include src/Game/CMakeFiles/BuildSAAS.dir/progress.make
 
 src/Game/CMakeFiles/BuildSAAS: src/Game/Game
-	cd /tmp/saas_git_clone/Cooking/LINUX/x86/src/Game && /opt/shine_sdk_external/bin/Tools/ShGamePackager --copy /tmp/saas_git_clone/tmpOD1m31.xml build_local_zip_OpenGLES2 /tmp/saas_git_clone/Cooking/LINUX/x86/src/Game/Game x86_64
+	cd /tmp/saas_git_clone/Cooking/LINUX/x86/src/Game && /opt/shine_sdk_external/bin/Tools/ShGamePackager --copy /tmp/saas_git_clone/tmpnUnFy2.xml build_local_zip_OpenGL3 /tmp/saas_git_clone/Cooking/LINUX/x86/src/Game/Game x86_64
 
 BuildSAAS: src/Game/CMakeFiles/BuildSAAS
 BuildSAAS: src/Game/CMakeFiles/BuildSAAS.dir/build.make
