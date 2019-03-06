@@ -15,8 +15,6 @@ void ShEntryPoint::OnPostInitialize(void)
 {
 	Plugin * pPlugin = new Plugin();
 	ShApplication::RegisterPlugin(pPlugin);
-
-	ShGUI::LoadGUIAndSSS(CShIdentifier("gui_test"), ShGUI::GetRootControl());
 }
 
 /**
