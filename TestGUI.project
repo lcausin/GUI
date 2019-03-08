@@ -9,12 +9,12 @@
             <setting name="generalgeneric" value="./Generic/"/>
             <setting name="generalsource" value="./src/"/>
             <setting name="generaltmp" value="./Cooking/"/>
-            <setting name="generalicon" value="ressources/Carre_gris.png"/>
-            <setting name="generalsplashscreen" value="ressources/Carre_gris.png"/>
-            <setting name="savedata_icon" value="ressources/Carre_gris.png"/>
-            <setting name="background_img" value="ressources/Carre_gris.png"/>
-            <setting name="generalmajor" value="1"/>
-            <setting name="generalminor" value="8"/>
+            <setting name="generalicon" value="Assets/shine_research.jpg"/>
+            <setting name="generalsplashscreen" value="Assets/shine_research.jpg"/>
+            <setting name="savedata_icon" value=""/>
+            <setting name="background_img" value=""/>
+            <setting name="generalmajor" value="0"/>
+            <setting name="generalminor" value="0"/>
             <setting name="parentallevel" value="1"/>
             <setting name="app_type" value="0"/>
             <setting name="hdr" value="0"/>
@@ -65,7 +65,7 @@
                 <setting name="mobileportrait" value="0"/>
                 <setting name="mobilefeaturefullscreen" value="0"/>
                 <android>
-                    <setting name="androidtargetsdkversion" value="9"/>
+                    <setting name="androidtargetsdkversion" value="24"/>
                     <setting name="androidminsdkversion" value="9"/>
                     <setting name="androidpublickey" value=""/>
                 </android>

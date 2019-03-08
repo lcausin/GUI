@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Extension.dir/Extension.cpp.o"
-  "/home/lcausin/Programs/Shine_External/Bin/Extensions/libExtension.pdb"
-  "/home/lcausin/Programs/Shine_External/Bin/Extensions/libExtension.so"
+  "/opt/shine_sdk_external/Bin/Extensions/libExtension.pdb"
+  "/opt/shine_sdk_external/Bin/Extensions/libExtension.so"
 )
 
 # Per-language clean rules from dependency scanning.

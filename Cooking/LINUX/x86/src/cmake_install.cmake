@@ -1,4 +1,4 @@
-# Install script for directory: /home/lcausin/tmp/src
+# Install script for directory: /tmp/saas_git_clone/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/lcausin/tmp/Cooking/LINUX/x86/src/Plugins/cmake_install.cmake")
-  include("/home/lcausin/tmp/Cooking/LINUX/x86/src/Extension/cmake_install.cmake")
-  include("/home/lcausin/tmp/Cooking/LINUX/x86/src/Game/cmake_install.cmake")
+  include("/tmp/saas_git_clone/Cooking/LINUX/x86/src/Plugins/cmake_install.cmake")
+  include("/tmp/saas_git_clone/Cooking/LINUX/x86/src/Extension/cmake_install.cmake")
+  include("/tmp/saas_git_clone/Cooking/LINUX/x86/src/Game/cmake_install.cmake")
 
 endif()
 

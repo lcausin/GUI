@@ -1,4 +1,4 @@
-# Install script for directory: /home/lcausin/tmp/src/Game
+# Install script for directory: /tmp/saas_git_clone/src/Game
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

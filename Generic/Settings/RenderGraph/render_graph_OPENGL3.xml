@@ -1,0 +1,11 @@
+<render_graph graph_name="render_graph_dx11_skybox" engine_save_ver="0.0.0">
+    <render_target_list>
+    </render_target_list>
+
+    <framebuffer_list>
+    </framebuffer_list>
+
+    <render_pass_list>
+        <render_pass type="RendererGUI" framebuffer="default_framebuffer" attachment_operation="clear_color_depth"/>
+    </render_pass_list>
+</render_graph>

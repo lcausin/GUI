@@ -1,1 +1,0 @@
-/usr/bin/g++ -fPIC  -Wall -Wextra -g  -shared -Wl,-soname,libExtension.so -o /home/lcausin/Programs/Shine_External/Bin/Extensions/libExtension.so CMakeFiles/Extension.dir/Extension.cpp.o ../Plugins/Plugin/CMakeFiles/Plugin_Editor.dir/Plugin.cpp.o 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/lcausin/tmp/src/Extension
+# Install script for directory: /tmp/saas_git_clone/src/Extension
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
