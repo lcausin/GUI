@@ -15,7 +15,15 @@
             <setting name="background_img" value=""/>
             <setting name="generalmajor" value="0"/>
             <setting name="generalminor" value="0"/>
+<<<<<<< HEAD
             <setting name="parentallevel" value="1"/>
+=======
+<<<<<<< HEAD
+            <setting name="parentallevel" value="1"/>
+=======
+            <setting name="parentallevel" value="0"/>
+>>>>>>> 7635015eea984f164f78641c01e52786a0a88152
+>>>>>>> 9ec3e9b2f072249cc631bd999e395853a7939a53
             <setting name="app_type" value="0"/>
             <setting name="hdr" value="0"/>
             <setting name="english" value="0"/>
@@ -65,8 +73,18 @@
                 <setting name="mobileportrait" value="0"/>
                 <setting name="mobilefeaturefullscreen" value="0"/>
                 <android>
+<<<<<<< HEAD
                     <setting name="androidtargetsdkversion" value="24"/>
                     <setting name="androidminsdkversion" value="9"/>
+=======
+<<<<<<< HEAD
+                    <setting name="androidtargetsdkversion" value="24"/>
+                    <setting name="androidminsdkversion" value="9"/>
+=======
+                    <setting name="androidtargetsdkversion" value="0"/>
+                    <setting name="androidminsdkversion" value="0"/>
+>>>>>>> 7635015eea984f164f78641c01e52786a0a88152
+>>>>>>> 9ec3e9b2f072249cc631bd999e395853a7939a53
                     <setting name="androidpublickey" value=""/>
                 </android>
                 <ios/>
