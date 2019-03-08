@@ -172,21 +172,36 @@ VS_NORMALMAP_OUTPUT vs_normalmap(VS_INPUT vIn)
 //--------------------------------------------------------------------------------------------------
 // Pixel shader 
 //--------------------------------------------------------------------------------------------------
+#if SH_DX11
+float4 ps(PS_INPUT vIn, uniform bool bAnimMap) : SV_Target
+#else // SH_DX11
 float4 ps(PS_INPUT vIn, uniform bool bAnimMap) : COLOR
+#endif // SH_DX11
 {
         float4 texcolor = vIn.color;
-        if (bAnimMap)
+		
+		if (bAnimMap)
         {
+#if SH_DX11
+        	float4 texcolor1 = Animated1Map.Sample(SamplerParticle, vIn.texcoord);
+	        float4 texcolor2 = Animated2Map.Sample(SamplerParticle, vIn.texcoord);
+#else // SH_DX11
         	float4 texcolor1 = tex2D(Animated1MapSampler, vIn.texcoord);
 	        float4 texcolor2 = tex2D(Animated2MapSampler, vIn.texcoord);
+#endif // SH_DX11
         	texcolor *= lerp(texcolor1, texcolor2, AnimatedTextureBlendFactor.x);
         }
         else
         {
+#if SH_DX11
+	        texcolor *= DiffuseMap.Sample(SamplerParticle, vIn.texcoord);
+#else // SH_DX11
 	        texcolor *= tex2D(DiffuseMapSampler, vIn.texcoord);
+#endif // SH_DX11
         }
 	
-        return texcolor;
+	return texcolor;
+	//return vIn.color;
 }
 
 float4 ps_normalmap(PS_NORMALMAP_INPUT vIn, uniform bool bAnimMap) : COLOR
@@ -194,16 +209,29 @@ float4 ps_normalmap(PS_NORMALMAP_INPUT vIn, uniform bool bAnimMap) : COLOR
         float4 texcolor = vIn.color;
         if (bAnimMap)
         {
+#if SH_DX11
+        	float4 texcolor1 = Animated1Map.Sample(SamplerParticle, vIn.texcoord);
+	        float4 texcolor2 = Animated2Map.Sample(SamplerParticle, vIn.texcoord);
+#else // SH_DX11
         	float4 texcolor1 = tex2D(Animated1MapSampler, vIn.texcoord);
 	        float4 texcolor2 = tex2D(Animated2MapSampler, vIn.texcoord);
+#endif // SH_DX11
         	texcolor *= lerp(texcolor1, texcolor2, AnimatedTextureBlendFactor.x);
         }
         else
         {
+#if SH_DX11
+	        texcolor *= DiffuseMap.Sample(SamplerParticle, vIn.texcoord);
+#else // SH_DX11
 	        texcolor *= tex2D(DiffuseMapSampler, vIn.texcoord);
+#endif // SH_DX11
         }
 
+#if SH_DX11
+	float3 normal = UnpackNormalMap(NormalMap, SamplerParticle, vIn.texcoord);
+#else // SH_DX11
 	float3 normal = UnpackNormalMap(NormalMapSampler, vIn.texcoord);
+#endif // SH_DX11
 	float3 H = normalize(vIn.Ldir + vIn.Vdir);
 	float4 lighting = lit(dot(vIn.Ldir, normal), dot(H, normal), Shininess);
 	texcolor.rgb *= (lighting.y + lighting.z) * LightColor.rgb;
