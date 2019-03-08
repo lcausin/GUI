@@ -10,6 +10,7 @@ set_property(TARGET Plugin APPEND PROPERTY COMPILE_FLAGS "${SHSDK_COMPILE_FLAGS}
 
 target_link_libraries(Plugin PUBLIC "${SHSDK_LIBRARIES}")
 target_include_directories(Plugin PUBLIC "${SHSDK_INCLUDE_DIRS}")
+
 target_include_directories(Plugin INTERFACE "${CMAKE_CURRENT_SOURCE_DIR}/..")
 
 # Compile to use it in the Shine Editor
@@ -23,5 +24,6 @@ set_property(TARGET Plugin_Editor APPEND PROPERTY POSITION_INDEPENDENT_CODE True
 
 target_link_libraries(Plugin_Editor PUBLIC "${SHSDK_EDITOR_LIBRARIES}")
 target_include_directories(Plugin_Editor PUBLIC "${SHSDK_INCLUDE_DIRS}")
-target_include_directories(Plugin_Editor INTERFACE "${CMAKE_CURRENT_SOURCE_DIR}/Plugin.h")
+
+target_include_directories(Plugin_Editor INTERFACE "${CMAKE_CURRENT_SOURCE_DIR}/..")
 

@@ -34,7 +34,19 @@ float4                  AnimatedTextureBlendFactor;
 //-----------------------------------------------------------------------------
 // Texture samplers
 //-----------------------------------------------------------------------------
-texture DiffuseMap : DiffuseMap < string UIName = "Diffuse Map "; string name   = "default.tga"; string TextureType = "2D"; >;
+#if SH_DX11
+Texture2D DiffuseMap;
+Texture2D NormalMap;
+Texture2D Animated1Map;
+Texture2D Animated2Map;
+SamplerState SamplerParticle
+{
+	FILTER		= Min_Mag_Linear_Mip_Point;
+	AddressU	= CLAMP;
+	AddressV	= CLAMP;
+};
+#else // SH_DX11
+texture DiffuseMap;
 sampler2D DiffuseMapSampler = sampler_state
 {
 	Texture = <DiffuseMap>;
@@ -45,7 +57,7 @@ sampler2D DiffuseMapSampler = sampler_state
 	AddressV  = CLAMP;
 };
 
-texture NormalMap : NormalMap       < string UIName = "Normal Map "; string name   = "default.tga"; string TextureType = "2D"; >;
+texture NormalMap;
 sampler2D NormalMapSampler = sampler_state
 {
 	Texture = <NormalMap>;
@@ -56,7 +68,7 @@ sampler2D NormalMapSampler = sampler_state
 	AddressV  = CLAMP;
 };
 
-texture Animated1Map : Animated1Map    < string UIName = "Animated Map 1"; string name   = "default.tga"; string TextureType = "2D"; >;
+texture Animated1Map;
 sampler2D Animated1MapSampler = sampler_state
 {
 	Texture = <Animated1Map>;
@@ -67,7 +79,7 @@ sampler2D Animated1MapSampler = sampler_state
 	AddressV  = CLAMP;
 };
 
-texture Animated2Map : Animated1Map    < string UIName = "Animated Map 2"; string name   = "default.tga"; string TextureType = "2D"; >;
+texture Animated2Map;
 sampler2D Animated2MapSampler = sampler_state
 {
 	Texture = <Animated2Map>;
@@ -77,6 +89,7 @@ sampler2D Animated2MapSampler = sampler_state
 	AddressU  = CLAMP;
 	AddressV  = CLAMP;
 };
+#endif // SH_DX11
 
 
 //--------------------------------------------------------------------------------------------------
@@ -85,26 +98,22 @@ sampler2D Animated2MapSampler = sampler_state
 struct VS_INPUT
 {
     float3 position                 : POSITION;
-    float4 color                    : COLOR;
     float2 texcoord                 : TEXCOORD0;
+    float4 color                    : COLOR;
 };
 
 struct VS_OUTPUT
 {
 	float4	position                : POSITION;
-	float4  color                   : COLOR;
 	float2	texcoord				: TEXCOORD0;
+	float4  color                   : COLOR;
 };
 
 struct PS_INPUT
 {
-#if SH_DX11
-	float4	position				: POSITION;
-	float4  color                   : COLOR;
-#else
-	float4  color                   : COLOR_CENTER;
-#endif
+	float4	position                : POSITION;
 	float2	texcoord				: TEXCOORD0;
+	float4  color                   : COLOR_CENTER;
 };
 
 struct VS_NORMALMAP_OUTPUT
@@ -119,12 +128,8 @@ struct VS_NORMALMAP_OUTPUT
 
 struct PS_NORMALMAP_INPUT
 {
-#if SH_DX11
 	float4	position				: POSITION;
-	float4  color                   : COLOR;
-#else
 	float4  color                   : COLOR_CENTER;
-#endif
 	float2	texcoord				: TEXCOORD0;
 	float3  Ldir                    : TEXCOORD1;
 	float3  Vdir                    : TEXCOORD2;
@@ -167,21 +172,36 @@ VS_NORMALMAP_OUTPUT vs_normalmap(VS_INPUT vIn)
 //--------------------------------------------------------------------------------------------------
 // Pixel shader 
 //--------------------------------------------------------------------------------------------------
+#if SH_DX11
+float4 ps(PS_INPUT vIn, uniform bool bAnimMap) : SV_Target
+#else // SH_DX11
 float4 ps(PS_INPUT vIn, uniform bool bAnimMap) : COLOR
+#endif // SH_DX11
 {
         float4 texcolor = vIn.color;
-        if (bAnimMap)
+		
+		if (bAnimMap)
         {
+#if SH_DX11
+        	float4 texcolor1 = Animated1Map.Sample(SamplerParticle, vIn.texcoord);
+	        float4 texcolor2 = Animated2Map.Sample(SamplerParticle, vIn.texcoord);
+#else // SH_DX11
         	float4 texcolor1 = tex2D(Animated1MapSampler, vIn.texcoord);
 	        float4 texcolor2 = tex2D(Animated2MapSampler, vIn.texcoord);
+#endif // SH_DX11
         	texcolor *= lerp(texcolor1, texcolor2, AnimatedTextureBlendFactor.x);
         }
         else
         {
+#if SH_DX11
+	        texcolor *= DiffuseMap.Sample(SamplerParticle, vIn.texcoord);
+#else // SH_DX11
 	        texcolor *= tex2D(DiffuseMapSampler, vIn.texcoord);
+#endif // SH_DX11
         }
 	
-        return texcolor;
+	return texcolor;
+	//return vIn.color;
 }
 
 float4 ps_normalmap(PS_NORMALMAP_INPUT vIn, uniform bool bAnimMap) : COLOR
@@ -189,16 +209,29 @@ float4 ps_normalmap(PS_NORMALMAP_INPUT vIn, uniform bool bAnimMap) : COLOR
         float4 texcolor = vIn.color;
         if (bAnimMap)
         {
+#if SH_DX11
+        	float4 texcolor1 = Animated1Map.Sample(SamplerParticle, vIn.texcoord);
+	        float4 texcolor2 = Animated2Map.Sample(SamplerParticle, vIn.texcoord);
+#else // SH_DX11
         	float4 texcolor1 = tex2D(Animated1MapSampler, vIn.texcoord);
 	        float4 texcolor2 = tex2D(Animated2MapSampler, vIn.texcoord);
+#endif // SH_DX11
         	texcolor *= lerp(texcolor1, texcolor2, AnimatedTextureBlendFactor.x);
         }
         else
         {
+#if SH_DX11
+	        texcolor *= DiffuseMap.Sample(SamplerParticle, vIn.texcoord);
+#else // SH_DX11
 	        texcolor *= tex2D(DiffuseMapSampler, vIn.texcoord);
+#endif // SH_DX11
         }
 
+#if SH_DX11
+	float3 normal = UnpackNormalMap(NormalMap, SamplerParticle, vIn.texcoord);
+#else // SH_DX11
 	float3 normal = UnpackNormalMap(NormalMapSampler, vIn.texcoord);
+#endif // SH_DX11
 	float3 H = normalize(vIn.Ldir + vIn.Vdir);
 	float4 lighting = lit(dot(vIn.Ldir, normal), dot(H, normal), Shininess);
 	texcolor.rgb *= (lighting.y + lighting.z) * LightColor.rgb;
