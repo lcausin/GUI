@@ -15,6 +15,10 @@ void ShEntryPoint::OnPostInitialize(void)
 {
 	Plugin * pPlugin = new Plugin();
 	ShApplication::RegisterPlugin(pPlugin);
+
+	ShGUI::LoadGUIAndSSS(CShIdentifier("gui_test"), ShGUI::GetRootControl());
+
+//	ShLevel::Load(CShIdentifier("default_level"));
 }
 
 /**
@@ -22,7 +26,7 @@ void ShEntryPoint::OnPostInitialize(void)
  */
 void ShEntryPoint::OnPreUpdate(float dt)
 {
-	// nothing here
+	SH_UNUSED(dt);
 }
 
 /**

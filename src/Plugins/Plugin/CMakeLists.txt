@@ -14,16 +14,17 @@ target_include_directories(Plugin PUBLIC "${SHSDK_INCLUDE_DIRS}")
 target_include_directories(Plugin INTERFACE "${CMAKE_CURRENT_SOURCE_DIR}/..")
 
 # Compile to use it in the Shine Editor
-add_library(Plugin_Editor OBJECT ${SOURCES_PLUGIN_IMPL})
+if(SH_PC OR SH_LINUX OR SH_MAC)
+	add_library(Plugin_Editor OBJECT ${SOURCES_PLUGIN_IMPL})
 
-set_property(TARGET Plugin_Editor PROPERTY FOLDER "Editor")
-set_property(TARGET Plugin_Editor APPEND PROPERTY COMPILE_DEFINITIONS "${SHSDK_COMPILE_DEFINITIONS}")
-set_property(TARGET Plugin_Editor APPEND PROPERTY COMPILE_FLAGS "${SHSDK_COMPILE_FLAGS}")
-set_property(TARGET Plugin_Editor APPEND PROPERTY COMPILE_DEFINITIONS "SH_EDITOR=1" "_INTERNAL_DLL") # FIXME
-set_property(TARGET Plugin_Editor APPEND PROPERTY POSITION_INDEPENDENT_CODE True)
+	set_property(TARGET Plugin_Editor PROPERTY FOLDER "Editor")
+	set_property(TARGET Plugin_Editor APPEND PROPERTY COMPILE_DEFINITIONS "${SHSDK_COMPILE_DEFINITIONS}")
+	set_property(TARGET Plugin_Editor APPEND PROPERTY COMPILE_FLAGS "${SHSDK_COMPILE_FLAGS}")
+	set_property(TARGET Plugin_Editor APPEND PROPERTY COMPILE_DEFINITIONS "SH_EDITOR=1" "_INTERNAL_DLL") # FIXME
+	set_property(TARGET Plugin_Editor APPEND PROPERTY POSITION_INDEPENDENT_CODE True)
 
-target_link_libraries(Plugin_Editor PUBLIC "${SHSDK_EDITOR_LIBRARIES}")
-target_include_directories(Plugin_Editor PUBLIC "${SHSDK_INCLUDE_DIRS}")
+	target_link_libraries(Plugin_Editor PUBLIC "${SHSDK_EDITOR_LIBRARIES}")
+	target_include_directories(Plugin_Editor PUBLIC "${SHSDK_INCLUDE_DIRS}")
 
-target_include_directories(Plugin_Editor INTERFACE "${CMAKE_CURRENT_SOURCE_DIR}/..")
-
+	target_include_directories(Plugin_Editor INTERFACE "${CMAKE_CURRENT_SOURCE_DIR}/..")
+endif(SH_PC OR SH_LINUX OR SH_MAC)

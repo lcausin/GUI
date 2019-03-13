@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><configurations>
+    <projectconfig projectfile="TestGUI.project" projectcmakelists="." />
+    <buildconfigs>
+        <build name="build_android_apk_local_" platform="Android" package="package apk" distribution="distrib_local" api="OpenGLES2" args="">
+	    <architecture name="armeabi-v7a" />
+        </build>
+    </buildconfigs>
+    <packageconfigs>
+        <package name="ipa" package="ipa" />
+        <package name="apk test" package="apk">
+            <packageName value="" />
+            <versionCode value="80" />
+            <keystore value="../../../../../Android/shine.keystore" password="pppppp" />
+	    <keyalias value="what" password="pppppp" />
+        </package>
+        <package name="zip package" package="zip" />
+        <package name="package apk" package="apk">
+            <packageName value="com.shine_research.saas" />
+            <versionCode value="80" />
+            <keystore value="../../../../mnt/shine/Projects/Android/shine.keystore" password="pppppp" />
+	    <keyalias value="what" password="pppppp" />
+        </package>
+    </packageconfigs>
+    <distribconfigs>
+        <distrib Name="itc_test" Distribution="ItunesConnect">
+            <scheme value="aaaa" />
+            <team_id value="bbbber" />
+            <itunes_connect username="ccccer" password="dddder" />
+        </distrib>
+        <distrib Name="distrib_gps" Distribution="GooglePlayStore">
+            <target_track value="aa" />
+            <service_account email="aa" p12="aaa" />
+        </distrib>
+        <distrib Name="distrib_local" Distribution="Local">
+            <destination path="." name="TestGui" />
+        </distrib>
+        <distrib Name="gps" Distribution="GooglePlayStore">
+            <target_track value="" />
+            <service_account email="" p12="" />
+        </distrib>
+        <distrib Name="distrib_ftp" Distribution="FTP">
+            <server address="" />
+            <auth username="" password="" />
+            <destination path="" name="" />
+        </distrib>
+    </distribconfigs>
+</configurations>
