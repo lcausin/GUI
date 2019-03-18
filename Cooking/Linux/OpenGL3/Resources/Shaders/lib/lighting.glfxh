@@ -77,9 +77,10 @@ half2 BlinnFactor(const half3 normal_vector, const half3 light_vector, const hal
 	half n_dot_l = dot(normal_vector, light_vector);
 	half3 half_vector = normalize(view_vector + light_vector);
 	half n_dot_h = dot(normal_vector, half_vector);
-	half diffuse_factor = clamp(n_dot_l, 0.0, 1.0);
+	half diffuse_factor = (n_dot_l < 0.0) ? 0.0 : n_dot_l;
 	half specular_factor = (n_dot_l < 0.0) || (n_dot_h < 0.0) ? 0.0 : pow(n_dot_h, shininess);
-	return vec2( diffuse_factor, specular_factor );
+	half2 blinn_factor = vec2( diffuse_factor, specular_factor );
+	return blinn_factor;
 }
 
 half BlinnFactor(const half3 normal_vector, const half3 light_vector)

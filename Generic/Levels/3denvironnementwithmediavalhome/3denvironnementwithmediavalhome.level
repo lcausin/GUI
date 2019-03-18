@@ -1,0 +1,116 @@
+<level engine_save_ver="1.4.2">
+    <settings>
+        <vertical_fog enabled="true" color_red="0.196078" color_green="0.233333" color_blue="0.266667" start="-100.000000" end="0.000000"/>
+        <directional color_red="0.150000" color_green="0.150000" color_blue="0.150000" color_alpha="1.000000" directional_x="-0.532667" directional_y="-0.631308" directional_z="0.775983"/>
+        <wind enabled="0" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" speed="0.000000"/>
+        <scene_settings ambient_red="0.000000" ambient_green="0.000000" ambient_blue="0.000000" glow_threshold="1.000000" glow_intensity="1.000000" ssao_intensity="0.700000"/>
+        <camera offset_x="-746.000000" offset_y="-993.000000" offset_z="1086.000000"/>
+        <render_if_occluded enabled="true" render_if_occluded_player_mul_color_red="0.700000" render_if_occluded_player_mul_color_green="0.700000" render_if_occluded_player_mul_color_blue="0.700000" render_if_occluded_player_add_color_red="0.000000" render_if_occluded_player_add_color_green="0.000000" render_if_occluded_player_add_color_blue="0.100000" render_if_occluded_enemy_mul_color_red="0.700000" render_if_occluded_enemy_mul_color_green="0.700000" render_if_occluded_enemy_mul_color_blue="0.700000" render_if_occluded_enemy_add_color_red="0.100000" render_if_occluded_enemy_add_color_green="0.000000" render_if_occluded_enemy_add_color_blue="0.000000" render_if_occluded_item_mul_color_red="0.700000" render_if_occluded_item_mul_color_green="0.700000" render_if_occluded_item_mul_color_blue="0.700000" render_if_occluded_item_add_color_red="0.000000" render_if_occluded_item_add_color_green="0.000000" render_if_occluded_item_add_color_blue="0.000000"/>
+        <skybox texture="" multiple="true"/>
+    </settings>
+    <preload>
+        <texture_list>
+            <texture name="_nomap_black.tga"/>
+            <texture name="roof_hatch-d.tga"/>
+            <texture name="roof_hatch-n.tga"/>
+            <texture name="roof_woodtile-d.tga"/>
+            <texture name="roof_woodtile-n.tga"/>
+            <texture name="walls_plaster-d.tga"/>
+            <texture name="walls_plaster-n.tga"/>
+            <texture name="windows_glas-d.tga"/>
+            <texture name="windows_glas-n.tga"/>
+            <texture name="wood_floor-d.tga"/>
+            <texture name="wood_floor-n.tga"/>
+            <texture name="wood_pillar-d.tga"/>
+            <texture name="wood_pillar-n.tga"/>
+            <texture name="wood_planks-d.tga"/>
+            <texture name="wood_planks-n.tga"/>
+        </texture_list>
+        <animated_texture_list/>
+        <sprite_texture_list>
+            <sprite_texture name="kmba.profil_background.tga"/>
+        </sprite_texture_list>
+        <material_library_list/>
+        <submesh_list>
+            <submesh name="p3d_medieval_enterable_bld-13_000"/>
+            <submesh name="p3d_medieval_enterable_bld-13_001"/>
+            <submesh name="p3d_medieval_enterable_bld-13_002"/>
+            <submesh name="p3d_medieval_enterable_bld-13_003"/>
+            <submesh name="p3d_medieval_enterable_bld-13_004"/>
+            <submesh name="p3d_medieval_enterable_bld-13_005"/>
+            <submesh name="p3d_medieval_enterable_bld-13_006"/>
+        </submesh_list>
+        <mesh_list>
+            <mesh name="p3d_medieval_enterable_bld-13"/>
+        </mesh_list>
+        <prefab_list/>
+    </preload>
+    <layer_list>
+        <layer name="layer_default" show="true" position_x="0.000000" position_y="0.000000" position_z="0.000000" min_x="-6640.894531" min_y="-7833.370117" max_x="7533.945312" max_y="6341.469727"/>
+        <layer name="layer_gui" show="true" position_x="0.000000" position_y="0.000000" position_z="0.000000" min_x="0.000000" min_y="0.000000" max_x="0.000000" max_y="0.000000"/>
+    </layer_list>
+    <object_list>
+        <point_list/>
+        <entity2_list>
+            <entity2 name="sprite_kmba_profil_background_002" position_x="881.897766" position_y="-1173.654419" position_z="243.721680" rotation_x="0.000000" rotation_y="0.000000" rotation_z="0.000000" scale_x="0.500000" scale_y="0.500000" scale_z="0.500000" layer="layer_default" show="true" color_r="1.000000" color_g="1.000000" color_b="1.000000" color_a="1.000000" pivot="center_center" pivot_custom_x="0.500000" pivot_custom_y="0.500000" sprite_library="kmba" sprite_name="profil_background" blend_function="alpha"/>
+            <entity2 name="sprite_kmba_profil_background_003" position_x="570.793091" position_y="-217.921799" position_z="247.295303" rotation_x="0.000000" rotation_y="0.000000" rotation_z="0.000000" scale_x="1.000000" scale_y="1.000000" scale_z="1.000000" layer="layer_default" show="true" color_r="1.000000" color_g="1.000000" color_b="1.000000" color_a="1.000000" pivot="center_center" pivot_custom_x="0.500000" pivot_custom_y="0.500000" sprite_library="kmba" sprite_name="profil_background" blend_function="alpha"/>
+        </entity2_list>
+        <ruler_list/>
+        <text_zone_list/>
+        <entity3_list>
+            <entity3 name="entityp3d_medieval_enterable_bld-13_001" position_x="-5.669522" position_y="-251.332123" position_z="248.560242" rotation_x="1.568403" rotation_y="-1.570738" rotation_z="-0.024538" scale_x="1.000000" scale_y="1.000000" scale_z="1.000000" layer="layer_default" show="true" color_r="1.000000" color_g="1.000000" color_b="1.000000" color_a="1.000000" cast_shadow="true" ghost="false" outline="false" render_if_occluded="false" render_if_occluded_not_an_occluder="false" render_if_occluded_mul_color_red="1.000000" render_if_occluded_mul_color_green="1.000000" render_if_occluded_mul_color_blue="1.000000" render_if_occluded_add_color_red="0.000000" render_if_occluded_add_color_green="0.000000" render_if_occluded_add_color_blue="0.000000" mesh="p3d_medieval_enterable_bld-13"/>
+            <entity3 name="entityp3d_medieval_enterable_bld-13_002" position_x="860.179810" position_y="-1367.456055" position_z="185.798035" rotation_x="1.576818" rotation_y="0.214538" rotation_z="0.046396" scale_x="1.000000" scale_y="1.000000" scale_z="1.000000" layer="layer_default" show="true" color_r="1.000000" color_g="1.000000" color_b="1.000000" color_a="1.000000" cast_shadow="true" ghost="false" outline="false" render_if_occluded="false" render_if_occluded_not_an_occluder="false" render_if_occluded_mul_color_red="1.000000" render_if_occluded_mul_color_green="1.000000" render_if_occluded_mul_color_blue="1.000000" render_if_occluded_add_color_red="0.000000" render_if_occluded_add_color_green="0.000000" render_if_occluded_add_color_blue="0.000000" mesh="p3d_medieval_enterable_bld-13"/>
+            <entity3 name="entityp3d_medieval_enterable_bld-13_003" position_x="1914.829956" position_y="-672.292358" position_z="23.994614" rotation_x="1.623580" rotation_y="1.568747" rotation_z="-0.038791" scale_x="1.000000" scale_y="1.000000" scale_z="1.000000" layer="layer_default" show="true" color_r="1.000000" color_g="1.000000" color_b="1.000000" color_a="1.000000" cast_shadow="true" ghost="false" outline="false" render_if_occluded="false" render_if_occluded_not_an_occluder="false" render_if_occluded_mul_color_red="1.000000" render_if_occluded_mul_color_green="1.000000" render_if_occluded_mul_color_blue="1.000000" render_if_occluded_add_color_red="0.000000" render_if_occluded_add_color_green="0.000000" render_if_occluded_add_color_blue="0.000000" mesh="p3d_medieval_enterable_bld-13"/>
+            <entity3 name="entityp3d_medieval_enterable_bld-13_004" position_x="1090.388062" position_y="587.002258" position_z="218.697327" rotation_x="1.606249" rotation_y="3.049451" rotation_z="-0.003919" scale_x="1.000000" scale_y="1.000000" scale_z="1.000000" layer="layer_default" show="true" color_r="1.000000" color_g="1.000000" color_b="1.000000" color_a="1.000000" cast_shadow="true" ghost="false" outline="false" render_if_occluded="false" render_if_occluded_not_an_occluder="false" render_if_occluded_mul_color_red="1.000000" render_if_occluded_mul_color_green="1.000000" render_if_occluded_mul_color_blue="1.000000" render_if_occluded_add_color_red="0.000000" render_if_occluded_add_color_green="0.000000" render_if_occluded_add_color_blue="0.000000" mesh="p3d_medieval_enterable_bld-13"/>
+        </entity3_list>
+        <billboard_list/>
+        <camera_list>
+            <camera name="camera_auto_001" position_x="2477.189453" position_y="-2827.608887" position_z="453.576294" rotation_x="0.000000" rotation_y="0.000000" rotation_z="0.000000" scale_x="1.000000" scale_y="1.000000" scale_z="1.000000" camera_type="type_3d_perspective" target_x="-288.317871" target_y="-2069.950928" target_z="0.000000" znear="304.132660" zfar="3000.000000" fovy="0.785398" camera_angle_y="0.000000" camera_angle_z="-1.910131" camera_editor="false"/>
+            <camera name="camera_auto_002" position_x="1113.816772" position_y="-221.365097" position_z="503.368591" rotation_x="0.000000" rotation_y="0.000000" rotation_z="0.000000" scale_x="1.000000" scale_y="1.000000" scale_z="1.000000" camera_type="type_3d_perspective" target_x="70.000000" target_y="-230.000000" target_z="290.000000" znear="65.226196" zfar="800.131104" fovy="0.785400" camera_angle_y="-0.201627" camera_angle_z="-3.133320" camera_editor="false"/>
+        </camera_list>
+        <particle_system_list/>
+        <light_list>
+            <light name="light_auto_001" position_x="446.525635" position_y="-745.950012" position_z="0.000000" rotation_x="0.000000" rotation_y="0.000000" rotation_z="0.000000" scale_x="1.000000" scale_y="1.000000" scale_z="1.000000" layer="layer_default" show="true" color_r="1.000000" color_g="1.000000" color_b="1.000000" color_a="1.000000" active="1" near="1.000000" far="7087.419922" multiplier="1.000000"/>
+            <light name="light_auto_002" position_x="1440.679688" position_y="-1723.127686" position_z="0.000000" rotation_x="0.000000" rotation_y="0.000000" rotation_z="0.000000" scale_x="1.000000" scale_y="1.000000" scale_z="1.000000" layer="layer_default" show="true" color_r="1.000000" color_g="1.000000" color_b="1.000000" color_a="1.000000" active="1" near="1.000000" far="4483.388672" multiplier="1.000000"/>
+            <light name="light_auto_003" position_x="1720.169678" position_y="-720.964844" position_z="0.000000" rotation_x="0.000000" rotation_y="0.000000" rotation_z="0.000000" scale_x="1.000000" scale_y="1.000000" scale_z="1.000000" layer="layer_default" show="true" color_r="1.000000" color_g="1.000000" color_b="1.000000" color_a="1.000000" active="1" near="1.000000" far="2819.865234" multiplier="1.000000"/>
+            <light name="light_auto_004" position_x="1125.409180" position_y="-2360.928467" position_z="0.000000" rotation_x="0.000000" rotation_y="0.000000" rotation_z="0.000000" scale_x="1.000000" scale_y="1.000000" scale_z="1.000000" layer="layer_default" show="true" color_r="1.000000" color_g="1.000000" color_b="1.000000" color_a="1.000000" active="1" near="1.000000" far="1825.150024" multiplier="1.000000"/>
+        </light_list>
+        <dummy_aabb2_list/>
+        <dummy_aabb3_list/>
+        <dummy_circle_list/>
+        <dummy_sphere_list/>
+        <navigation_mesh_list/>
+        <path_list/>
+        <animation_list/>
+        <prefab_list/>
+        <collision_segment_list/>
+        <collision_shape_list/>
+    </object_list>
+    <scene_graph>
+        <entity2 name="sprite_kmba_profil_background_002"/>
+        <entity2 name="sprite_kmba_profil_background_003"/>
+        <entity3 name="entityp3d_medieval_enterable_bld-13_001"/>
+        <entity3 name="entityp3d_medieval_enterable_bld-13_002"/>
+        <entity3 name="entityp3d_medieval_enterable_bld-13_003"/>
+        <entity3 name="entityp3d_medieval_enterable_bld-13_004"/>
+        <camera name="camera_auto_001"/>
+        <camera name="camera_auto_002"/>
+        <light name="light_auto_001"/>
+        <light name="light_auto_002"/>
+        <light name="light_auto_003"/>
+        <light name="light_auto_004"/>
+        < name="mainwindowshine_tooltip"/>
+    </scene_graph>
+    <editor_settings>
+        <snap_x enabled="false" value="0.000000"/>
+        <snap_y enabled="false" value="0.000000"/>
+        <snap_z enabled="false" value="0.000000"/>
+        <snap_rulers enabled="false" threshold="10.000000"/>
+        <translate_x enabled="true"/>
+        <translate_y enabled="true"/>
+        <translate_z enabled="true"/>
+        <grid enabled="true" position_x="0.000000" position_y="0.000000" position_z="0.000000" size_x="100.000000" size_y="100.000000" subdivision_x="10" subdivision_y="10"/>
+        <show_markers enabled="false"/>
+        <camera position_x="-162.975113" position_y="2330.545166" position_z="2763.241211" target_x="252.642181" target_y="-450.462067" target_z="0.000000" znear="1.000000" zfar="40000.000000" zoom="3.942365" camera_angle_y="-0.776672" camera_angle_z="48.843037" type="1" arcball_x="-3942.364746" arcball_y="0.000000" arcball_z="0.000000" camera_up_x="0.000000" camera_up_y="0.000000" camera_up_z="1.000000"/>
+    </editor_settings>
+</level>

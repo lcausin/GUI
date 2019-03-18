@@ -8,7 +8,7 @@
 	<field name="TANGENT" lname="tangent" type="vec3" />
 	<field name="BINORMAL" lname="binormal" type="vec3" />
 	<field name="NORMAL" lname="normal" type="vec3" /> -->
-	<field name="COLOR" lname="color" type="vec4" />
+	<field name="COLOR" lname="color" type="vec3" />
 </input>
 
 <output name="VS_OUTPUT_VC">
@@ -38,7 +38,7 @@ VS_OUTPUT_VC vsVC(VS_INPUT vIn)
 {
 	VS_OUTPUT_VC vOut;
 	vOut.position = vIn.position * mWorldViewProjection;
-	vOut.color    = vIn.color;
+	vOut.color    = vec4(vIn.color, 1);
 	return(vOut);
 }
 
