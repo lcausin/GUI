@@ -1,0 +1,17 @@
+<material name="Object09_fi_clone" effect_file_name="entity_standard.fx">
+    <parameter_list>
+        <parameter name="DiffuseMap" type="bitmap" file_name="teppich_dif.tga"/>
+        <parameter name="DiffuseMapModulator" type="color" red="0.588235" green="0.588235" blue="0.588235"/>
+        <parameter name="NormalMap" type="bitmap" file_name="teppich_norm.tga"/>
+        <parameter name="OpacityMap" type="bitmap" file_name="_nomap_white.tga"/>
+        <parameter name="SpecularMap" type="bitmap" file_name="teppich_spec.tga"/>
+        <parameter name="SpecularMapModulator" type="color" red="0.000000" green="0.000000" blue="0.000000"/>
+        <parameter name="SpecularLevel" type="float" value="0.000000"/>
+        <parameter name="EnvMap" type="bitmap" file_name="_nomap_black.tga"/>
+        <parameter name="EnvMapFactor" type="float" value="1.000000"/>
+        <parameter name="EnvMapMask" type="bitmap" file_name="_nomap_black.tga"/>
+        <parameter name="Shininess" type="float" value="2.000000"/>
+        <parameter name="TexCoordOffsetU" type="float" value="0.000000"/>
+        <parameter name="TexCoordOffsetV" type="float" value="0.000000"/>
+    </parameter_list>
+</material>
