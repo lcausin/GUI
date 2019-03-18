@@ -103,11 +103,11 @@ uniform mediump float  	SpecularLevel;
 VS_OUTPUT vs(VS_NOSKIN_INPUT vIn)
 {
 	VS_OUTPUT Out;
-	Out.position = mul(vIn.position0, mWorldViewProjection);
+	Out.position = mul(vec4(vIn.position0.xyz, 1.0), mWorldViewProjection);
 	Out.texcoord.xy = vIn.texcoord;
-	Out.worldPos = mul(vIn.position0,mWorld).xyz;
+	Out.worldPos = mul(vec4(vIn.position0.xyz, 1.0),mWorld).xyz;
 #if ENGINE_HAS_SHADOW
-	Out.shadtexcoord = mul(vIn.position0, mShadowTexture);
+	Out.shadtexcoord = mul(vec4(vIn.position0.xyz, 1.0), mShadowTexture);
 #endif
 	Out.viewNormal = mul(normalize(mul(vIn.normal0, mat3(mWorldIT)).xyz), mat3(mView)).xyz;//TEMP
 

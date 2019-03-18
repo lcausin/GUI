@@ -42,7 +42,7 @@ VS_OUTPUT vs_noskin(VS_NOSKIN_INPUT vIn)
 {
 	VS_OUTPUT Out;
 
-	Out.position = mul(vIn.position0, mWorldViewProjection);
+	Out.position = mul(vec4(vIn.position0.xyz, 1.0), mWorldViewProjection);
 	float2 depth = Out.position.zw;
 
 	//
@@ -74,7 +74,7 @@ VS_OUTPUT vs_skin(VS_SKIN_INPUT vIn)
 	VS_OUTPUT Out;
 
 	skin(vIn);
-	Out.position = mul(vIn.position0, mWorldViewProjection);
+	Out.position = mul(vec4(vIn.position0.xyz, 1.0), mWorldViewProjection);
 	float2 depth = Out.position.zw;
 	//
 	// Compute normal in world space

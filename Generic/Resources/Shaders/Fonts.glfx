@@ -10,7 +10,7 @@
 </sampler>
 <sampler name="TileSetSampler" type="sampler2D">
 	<texture>TileSet</texture>
-	<min>LINEAR</min><mag>LINEAR</mag><mip>NONE</mip>
+	<min>LINEAR</min><mag>LINEAR</mag><mip>LINEAR</mip>
 	<wrapu>CLAMP</wrapu><wrapv>CLAMP</wrapv>
 </sampler>
 

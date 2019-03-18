@@ -37,10 +37,8 @@ macro(CopyToShineSAAS _TargetName)
 	
 	if (SHGAMEPACKAGER_EXECUTABLE AND (DEFINED BUILD_FILE_PATH) AND (DEFINED BUILD_CONFIG_NAME))
 	
-		message("----->      copytoshinesaas")
 		if (CMAKE_SYSTEM_NAME MATCHES "Android")
 			set(BUILD_ARCHITECTURE ${ANDROID_ABI})
-			message("----->      BUILD_ARCHITECTURE = ${BUILD_ARCHITECTURE}")
 		elseif(CMAKE_SYSTEM_NAME MATCHES "Linux")
 			string(REPLACE "-linux-gnu" "" BUILD_ARCHITECTURE ${CMAKE_LIBRARY_ARCHITECTURE})
 		endif()

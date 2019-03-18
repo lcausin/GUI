@@ -1,0 +1,17 @@
+<material name="solarsystem_fi_clone" effect_file_name="entity_standard.fx">
+    <parameter_list>
+        <parameter name="DiffuseMap" type="bitmap" file_name="sichel_dif.tga"/>
+        <parameter name="DiffuseMapModulator" type="color" red="0.419608" green="0.376471" blue="0.211765"/>
+        <parameter name="NormalMap" type="bitmap" file_name="sichel_norm.tga"/>
+        <parameter name="OpacityMap" type="bitmap" file_name="_nomap_white.tga"/>
+        <parameter name="SpecularMap" type="bitmap" file_name="sichel_spec.tga"/>
+        <parameter name="SpecularMapModulator" type="color" red="0.407647" green="0.322941" blue="0.201176"/>
+        <parameter name="SpecularLevel" type="float" value="0.450000"/>
+        <parameter name="EnvMap" type="bitmap" file_name="reflmap.tga"/>
+        <parameter name="EnvMapFactor" type="float" value="0.300000"/>
+        <parameter name="EnvMapMask" type="bitmap" file_name="_nomap_black.tga"/>
+        <parameter name="Shininess" type="float" value="1.624505"/>
+        <parameter name="TexCoordOffsetU" type="float" value="0.000000"/>
+        <parameter name="TexCoordOffsetV" type="float" value="0.000000"/>
+    </parameter_list>
+</material>

@@ -1,24 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><configurations>
+<?xml version="1.0" encoding="utf-8"?>
+<configurations>
     <projectconfig projectfile="TestGUI.project" projectcmakelists="." />
     <buildconfigs>
-        <build name="build_android_apk_local_" platform="Android" package="package apk" distribution="distrib_local" api="OpenGLES2" args="">
-	    <architecture name="armeabi-v7a" />
+        <build name="build_android_apk_local_arm64v8a_armeabiv7a" platform="Android" package="apk test" distribution="distrib_local" api="OpenGLES2" args="">
+            <architecture name="arm64-v8a" />
+            <architecture name="armeabi-v7a" />
         </build>
     </buildconfigs>
     <packageconfigs>
         <package name="ipa" package="ipa" />
         <package name="apk test" package="apk">
-            <packageName value="" />
+            <packageName value="com.shine_research.saas" />
             <versionCode value="80" />
-            <keystore value="../../../../../Android/shine.keystore" password="pppppp" />
-	    <keyalias value="what" password="pppppp" />
+            <keystore value="../../../../mnt/shine/Projects/Android/shine.keystore" password="pppppp"/>
+            <keyalias value="what" password="" />
         </package>
         <package name="zip package" package="zip" />
         <package name="package apk" package="apk">
             <packageName value="com.shine_research.saas" />
             <versionCode value="80" />
-            <keystore value="../../../../mnt/shine/Projects/Android/shine.keystore" password="pppppp" />
-	    <keyalias value="what" password="pppppp" />
+            <keystore value="../../../../../Android/shine.keystore" password="pppppp" />
+            <keyalias value="what" password="" />
         </package>
     </packageconfigs>
     <distribconfigs>
@@ -45,3 +47,5 @@
         </distrib>
     </distribconfigs>
 </configurations>
+
+

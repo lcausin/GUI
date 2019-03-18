@@ -1,4 +1,4 @@
-<!--- //DiffuseColorSolid.glfx -->
+<!--- //DiffuseColorSolid.glfx --->
 
 <glfx>
 
@@ -7,7 +7,7 @@
 	<field name="TEXCOORD0" lname="texcoord" type="vec2" />
 	<field name="TANGENT" lname="tangent" type="vec3" />
 	<field name="BINORMAL" lname="binormal" type="vec3" />
-	<field name="NORMAL" lname="normal" type="vec3" /> -->
+	<field name="NORMAL" lname="normal" type="vec3" />
 	<field name="COLOR" lname="color" type="vec3" />
 </input>
 
@@ -22,10 +22,10 @@
 
 <code><![CDATA[
 
-    uniform highp mat4 mWorldViewProjection;
-    uniform highp vec4 DiffuseColor;
+uniform mediump mat4 mWorldViewProjection;
+uniform mediump vec4 DiffuseColor;
 
-    //--------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------
 // Vertex shader code
 //--------------------------------------------------------------------------------------------------
 VS_OUTPUT_VC vsVC(VS_INPUT vIn)
@@ -46,12 +46,12 @@ VS_OUTPUT vs(VS_INPUT vIn)
 //--------------------------------------------------------------------------------------------------
 // Pixel shader code
 //--------------------------------------------------------------------------------------------------
-lowp vec4 psVC(VS_OUTPUT_VC vIn) : COLOR
+lowp vec4 psVC(VS_OUTPUT_VC vIn)
 {
 	return(DiffuseColor * vIn.color);
 }
 
-lowp vec4 ps(VS_OUTPUT vIn) : COLOR
+lowp vec4 ps(VS_OUTPUT vIn)
 {
 	return(DiffuseColor);
 }
@@ -67,3 +67,5 @@ lowp vec4 ps(VS_OUTPUT vIn) : COLOR
 	<vs name="vs" input="VS_INPUT" output="VS_OUTPUT" />
 	<ps name="ps" />
 </tech>
+
+</glfx>

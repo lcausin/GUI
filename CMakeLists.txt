@@ -38,11 +38,7 @@ LIST(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake/Modules/")
 find_package(ShSDK REQUIRED StubUserSystem ShEntryPoint ${USE_MODULE})
 
 if(NOT SHINE_INTERNAL)
-	find_library(SHCORE_EDITOR NAMES ShCore_Editor HINTS $ENV{SHINE_BASE_DIR})
-	find_library(SHSDK_EDITOR NAMES ShSDK_Editor HINTS $ENV{SHINE_BASE_DIR})
-	find_library(SHCOMPILER_EDITOR NAMES ShCompiler_Editor HINTS $ENV{SHINE_BASE_DIR})
-	set(SHSDK_EDITOR_LIBRARIES "${SHCORE_EDITOR}" "${SHSDK_EDITOR}" "${SHCOMPILER_EDITOR}" CACHE PATH "ShSDK Editor libraries") # ugly
-	set(SHINE_EDITOR_EXT_DIR "$ENV{SHINE_BASE_DIR}/Bin/Extensions" CACHE PATH "Extension directory") # ugly too
+	find_package(ShSDK_Editor REQUIRED)
 endif(NOT SHINE_INTERNAL)
 
 # Include some cmake helpers
