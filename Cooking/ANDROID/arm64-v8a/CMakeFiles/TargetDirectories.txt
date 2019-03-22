@@ -1,0 +1,15 @@
+/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/edit_cache.dir
+/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/src/CMakeFiles/rebuild_cache.dir
+/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/src/CMakeFiles/edit_cache.dir
+/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/src/Plugins/CMakeFiles/rebuild_cache.dir
+/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/src/Plugins/CMakeFiles/edit_cache.dir
+/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/src/Plugins/Plugin/CMakeFiles/rebuild_cache.dir
+/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/src/Plugins/Plugin/CMakeFiles/Plugin.dir
+/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/src/Plugins/Plugin/CMakeFiles/edit_cache.dir
+/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/src/Extension/CMakeFiles/rebuild_cache.dir
+/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/src/Extension/CMakeFiles/edit_cache.dir
+/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/src/Game/CMakeFiles/edit_cache.dir
+/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/src/Game/CMakeFiles/Game.dir
+/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/src/Game/CMakeFiles/rebuild_cache.dir
+/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/src/Game/CMakeFiles/BuildSAAS.dir

@@ -66,7 +66,7 @@
         <billboard_list/>
         <camera_list>
             <camera name="camera_auto_001" position_x="2477.189453" position_y="-2827.608887" position_z="453.576294" rotation_x="0.000000" rotation_y="0.000000" rotation_z="0.000000" scale_x="1.000000" scale_y="1.000000" scale_z="1.000000" camera_type="type_3d_perspective" target_x="-288.317871" target_y="-2069.950928" target_z="0.000000" znear="304.132660" zfar="3000.000000" fovy="0.785398" camera_angle_y="0.000000" camera_angle_z="-1.910131" camera_editor="false"/>
-            <camera name="camera_auto_002" position_x="1113.816772" position_y="-221.365097" position_z="503.368591" rotation_x="0.000000" rotation_y="0.000000" rotation_z="0.000000" scale_x="1.000000" scale_y="1.000000" scale_z="1.000000" camera_type="type_3d_perspective" target_x="70.000000" target_y="-230.000000" target_z="290.000000" znear="65.226196" zfar="800.131104" fovy="0.785400" camera_angle_y="-0.201627" camera_angle_z="-3.133320" camera_editor="false"/>
+            <camera name="camera_auto_002" position_x="1113.816772" position_y="-221.365097" position_z="503.368591" rotation_x="0.000000" rotation_y="0.000000" rotation_z="0.000000" scale_x="1.000000" scale_y="1.000000" scale_z="1.000000" camera_type="type_3d_perspective" target_x="70.000000" target_y="-230.000000" target_z="290.000000" znear="65.226196" zfar="2000.000000" fovy="0.785400" camera_angle_y="-0.201627" camera_angle_z="-3.133320" camera_editor="false"/>
         </camera_list>
         <particle_system_list/>
         <light_list>
@@ -99,7 +99,6 @@
         <light name="light_auto_002"/>
         <light name="light_auto_003"/>
         <light name="light_auto_004"/>
-        < name="mainwindowshine_tooltip"/>
     </scene_graph>
     <editor_settings>
         <snap_x enabled="false" value="0.000000"/>
@@ -111,6 +110,6 @@
         <translate_z enabled="true"/>
         <grid enabled="true" position_x="0.000000" position_y="0.000000" position_z="0.000000" size_x="100.000000" size_y="100.000000" subdivision_x="10" subdivision_y="10"/>
         <show_markers enabled="false"/>
-        <camera position_x="-162.975113" position_y="2330.545166" position_z="2763.241211" target_x="252.642181" target_y="-450.462067" target_z="0.000000" znear="1.000000" zfar="40000.000000" zoom="3.942365" camera_angle_y="-0.776672" camera_angle_z="48.843037" type="1" arcball_x="-3942.364746" arcball_y="0.000000" arcball_z="0.000000" camera_up_x="0.000000" camera_up_y="0.000000" camera_up_z="1.000000"/>
+        <camera position_x="3612.907715" position_y="-538.467224" position_z="2059.881592" target_x="252.642181" target_y="-450.462067" target_z="0.000000" znear="1.000000" zfar="40000.000000" zoom="3.942365" camera_angle_y="-0.549779" camera_angle_z="47.097706" type="1" arcball_x="-3942.364746" arcball_y="0.000000" arcball_z="0.000000" camera_up_x="0.000000" camera_up_y="0.000000" camera_up_z="1.000000"/>
     </editor_settings>
 </level>

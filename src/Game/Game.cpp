@@ -7,19 +7,19 @@ float g_fCameraSpeed = 20.0f;	// 10.0f -> normal | 100.0f -> High speed
 float fTime = 0.0f;
 
 
-//--------------------------------------------------------------------------------------------------
-/// @todo comment
-//--------------------------------------------------------------------------------------------------
+/**
+ * Called to initialize DisplayProperties
+ */
 void ShEntryPoint::SetupDisplayProperties(bool & bLandscape, bool & bEnable3D, bool & bEnableZ, bool & bUseSpecular, bool & bUsePointLights, bool & bUseShadow, int & width, int & height)
 {
-	bLandscape = false;
-	bEnable3D = true;
-	bEnableZ = true;
-	bUseSpecular = false;
-	bUsePointLights = true;
-	bUseShadow = true;
-	width = 1280;
-	height = 720;
+	bLandscape		= false;
+	bEnable3D		= true;
+	bEnableZ		= true;
+	bUseSpecular	= false;
+	bUsePointLights	= true;
+	bUseShadow		= true;
+	width			= 1280;
+	height			= 720;
 }
 
 /**
@@ -27,7 +27,7 @@ void ShEntryPoint::SetupDisplayProperties(bool & bLandscape, bool & bEnable3D, b
  */
 void ShEntryPoint::OnPreInitialize(void)
 {
-
+	// ...
 }
 
 /**

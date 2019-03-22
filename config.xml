@@ -2,19 +2,25 @@
 <configurations>
     <projectconfig projectfile="TestGUI.project" projectcmakelists="." />
     <buildconfigs>
-        <build name="build_local_zip_OpenGL3" platform="Linux" package="zip package" distribution="distrib_local" api="OpenGL3" args="">
+        <build name="build_android_apk_local_arm64_v8a" platform="Android" package="package apk" distribution="distrib_local" api="OpenGLES2" args="">
             <architecture name="arm64-v8a" />
         </build>
     </buildconfigs>
     <packageconfigs>
         <package name="ipa" package="ipa" />
         <package name="apk test" package="apk">
-            <packageName value="" />
-            <versionCode value="0" />
-            <keystore value="" />
-            <keyalias value="" />
+            <packageName value="com.shine_research.saas" />
+            <versionCode value="80" />
+            <keystore value="../../../../mnt/shine/Projects/Android/shine.keystore" password="pppppp"/>
+            <keyalias value="what" password="pppppp" />
         </package>
         <package name="zip package" package="zip" />
+        <package name="package apk" package="apk">
+            <packageName value="com.shine_research.saas" />
+            <versionCode value="80" />
+            <keystore value="../../../../mnt/shine/Projects/Android/shine.keystore" password="pppppp" />
+            <keyalias value="what" password="pppppp" />
+        </package>
     </packageconfigs>
     <distribconfigs>
         <distrib Name="itc_test" Distribution="ItunesConnect">

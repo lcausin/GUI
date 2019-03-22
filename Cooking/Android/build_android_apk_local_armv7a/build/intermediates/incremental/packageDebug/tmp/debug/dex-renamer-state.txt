@@ -1,0 +1,4 @@
+#Fri Mar 22 15:04:55 CET 2019
+base.0=/home/lcausin/Documents/GUI/Cooking/Android/build_android_apk_local_armv7a/build/intermediates/transforms/dexMerger/debug/0
+renamed.0=classes.dex
+path.0=classes.dex

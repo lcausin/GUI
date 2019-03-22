@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ae22fede-a40a-4b1f-9c14-da0d621493e1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt.user" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/ANDROID/arm64-v8a/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/ANDROID/arm64-v8a/CMakeFiles/3.12.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/ANDROID/arm64-v8a/CMakeFiles/3.12.1/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/ANDROID/arm64-v8a/CMakeFiles/3.12.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/ANDROID/arm64-v8a/CMakeFiles/3.12.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/ANDROID/arm64-v8a/CMakeFiles/3.12.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/ANDROID/arm64-v8a/CMakeFiles/3.12.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/ANDROID/arm64-v8a/CMakeFiles/3.12.1/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/ANDROID/arm64-v8a/CMakeFiles/3.12.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/ANDROID/arm64-v8a/CMakeFiles/3.12.1/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeError.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/ANDROID/arm64-v8a/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/ANDROID/arm64-v8a/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/ANDROID/arm64-v8a/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/ANDROID/arm64-v8a/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/BF-fx.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/BF-fx.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/BF-fxh.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/BF-fxh.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/BF-level.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/BF-level.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/BF-materials.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/BF-materials.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/BF-mesh.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/BF-mesh.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/BF-navmesh.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/BF-navmesh.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/BF-sprite-info.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/BF-sprite-info.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/BF-sprite-tga.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/BF-sprite-tga.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/BF-submesh.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/BF-submesh.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/BF-textures-tga.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/BF-textures-tga.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/HashMap.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/HashMap.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/Resources/Shaders/DiffuseColorSolid.fxb" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/Resources/Shaders/DiffuseColorSolid.fxb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/Resources/Shaders/Fonts.fxb" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/Resources/Shaders/Fonts.fxb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/Resources/Shaders/LightPrePass.fxb" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/Resources/Shaders/LightPrePass.fxb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/Resources/Shaders/entity_standard.fxb" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/Resources/Shaders/entity_standard.fxb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/Resources/Shaders/entity_standard_nd.fxb" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/Resources/Shaders/entity_standard_nd.fxb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/Resources/Shaders/entity_standard_shadow.fxb" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/Resources/Shaders/entity_standard_shadow.fxb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/Resources/Shaders/lib/lighting.glfxh" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/Resources/Shaders/lib/lighting.glfxh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/Resources/Shaders/lib/skinning.glfxh" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/Resources/Shaders/lib/skinning.glfxh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/Resources/Shaders/primitive_solid.fxb" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/Resources/Shaders/primitive_solid.fxb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/Resources/Shaders/primitive_wire.fxb" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/Resources/Shaders/primitive_wire.fxb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/Settings/RenderGraph/render_graph_OPENGL3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/Settings/RenderGraph/render_graph_OPENGL3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/Settings/RenderGraph/render_graph_OPENGL3_Editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/OpenGLES2/Settings/RenderGraph/render_graph_OPENGL3_Editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/.gradle/5.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/.gradle/5.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/.gradle/5.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/.gradle/5.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/.gradle/5.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/.gradle/5.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/.gradle/5.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/.gradle/5.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/debug/BF-fx.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/debug/BF-fx.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/debug/BF-fxh.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/debug/BF-fxh.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/debug/BF-level.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/debug/BF-level.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/debug/BF-materials.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/debug/BF-materials.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/debug/BF-mesh.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/debug/BF-mesh.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/debug/BF-navmesh.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/debug/BF-navmesh.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/debug/BF-sprite-info.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/debug/BF-sprite-info.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/debug/BF-sprite-tga.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/debug/BF-sprite-tga.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/debug/BF-submesh.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/debug/BF-submesh.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/debug/BF-textures-tga.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/debug/BF-textures-tga.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/release/BF-fx.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/release/BF-fx.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/release/BF-fxh.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/release/BF-fxh.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/release/BF-level.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/release/BF-level.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/release/BF-materials.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/release/BF-materials.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/release/BF-mesh.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/release/BF-mesh.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/release/BF-navmesh.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/release/BF-navmesh.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/release/BF-sprite-info.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/release/BF-sprite-info.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/release/BF-sprite-tga.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/release/BF-sprite-tga.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/release/BF-submesh.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/release/BF-submesh.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/release/BF-textures-tga.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/assets/release/BF-textures-tga.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/incremental/debug-mergeJniLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/incremental/debug-mergeJniLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/incremental/mergeReleaseAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/incremental/mergeReleaseAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/T3R5et+XM26oxNr9iCGeRazonVs=" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/T3R5et+XM26oxNr9iCGeRazonVs=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/incremental/packageRelease/tmp/release/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/incremental/packageRelease/tmp/release/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/incremental/packageRelease/tmp/release/file-input-save-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/incremental/packageRelease/tmp/release/file-input-save-data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/incremental/release-mergeJniLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/incremental/release-mergeJniLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/jniLibs/debug/arm64-v8a/libShineApp.so" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/jniLibs/debug/arm64-v8a/libShineApp.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/jniLibs/release/arm64-v8a/libShineApp.so" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/jniLibs/release/arm64-v8a/libShineApp.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/res/debug/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/res/debug/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/transforms/mergeJniLibs/debug/0/lib/arm64-v8a/libShineApp.so" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/transforms/mergeJniLibs/debug/0/lib/arm64-v8a/libShineApp.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/transforms/mergeJniLibs/release/0/lib/arm64-v8a/libShineApp.so" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/transforms/mergeJniLibs/release/0/lib/arm64-v8a/libShineApp.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/transforms/mergeJniLibs/release/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/transforms/mergeJniLibs/release/__content__.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/transforms/stripDebugSymbol/debug/0/lib/arm64-v8a/libShineApp.so" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/transforms/stripDebugSymbol/debug/0/lib/arm64-v8a/libShineApp.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/transforms/stripDebugSymbol/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/transforms/stripDebugSymbol/debug/__content__.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/transforms/stripDebugSymbol/release/0/lib/arm64-v8a/libShineApp.so" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/transforms/stripDebugSymbol/release/0/lib/arm64-v8a/libShineApp.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/transforms/stripDebugSymbol/release/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/intermediates/transforms/stripDebugSymbol/release/__content__.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/outputs/apk/debug/build_android_apk_local_arm64v8a_armeabiv7a-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/outputs/apk/debug/build_android_apk_local_arm64v8a_armeabiv7a-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/outputs/apk/release/build_android_apk_local_arm64v8a_armeabiv7a-release.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/outputs/apk/release/build_android_apk_local_arm64v8a_armeabiv7a-release.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/reports/lint-results.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/build/reports/lint-results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/src/main/assets/BF-fx.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/src/main/assets/BF-fx.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/src/main/assets/BF-fxh.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/src/main/assets/BF-fxh.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/src/main/assets/BF-level.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/src/main/assets/BF-level.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/src/main/assets/BF-materials.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/src/main/assets/BF-materials.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/src/main/assets/BF-mesh.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/src/main/assets/BF-mesh.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/src/main/assets/BF-navmesh.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/src/main/assets/BF-navmesh.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/src/main/assets/BF-sprite-info.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/src/main/assets/BF-sprite-info.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/src/main/assets/BF-sprite-tga.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/src/main/assets/BF-sprite-tga.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/src/main/assets/BF-submesh.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/src/main/assets/BF-submesh.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/src/main/assets/BF-textures-tga.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/src/main/assets/BF-textures-tga.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/src/main/jniLibs/arm64-v8a/libShineApp.so" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/src/main/jniLibs/arm64-v8a/libShineApp.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/src/main/res/drawable-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/src/main/res/drawable-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/src/main/res/drawable-ldpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/src/main/res/drawable-ldpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/src/main/res/drawable-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/src/main/res/drawable-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/src/main/res/drawable-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/src/main/res/drawable-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/src/main/res/drawable-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/src/main/res/drawable-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/src/main/res/drawable-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Android/build_android_apk_local_arm64v8a_armeabiv7a/src/main/res/drawable-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/CMakeFiles/3.12.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/CMakeFiles/3.12.1/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/CMakeFiles/3.12.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/CMakeFiles/3.12.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/CMakeFiles/3.12.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/CMakeFiles/3.12.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/CMakeFiles/3.12.1/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/CMakeFiles/3.12.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/CMakeFiles/3.12.1/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/CMakeFiles/CMakeError.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/saas_file" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Extension/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Extension/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Extension/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Extension/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Game/CMakeFiles/BuildSAAS.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Game/CMakeFiles/BuildSAAS.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Game/CMakeFiles/BuildSAAS.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Game/CMakeFiles/BuildSAAS.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Game/CMakeFiles/BuildSAAS.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Game/CMakeFiles/BuildSAAS.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Game/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Game/CMakeFiles/Game.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Game/CMakeFiles/Game.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Game/CMakeFiles/Game.dir/Game.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Game/CMakeFiles/Game.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Game/CMakeFiles/Game.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Game/CMakeFiles/Game.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Game/CMakeFiles/Game.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Game/CMakeFiles/Game.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Game/CMakeFiles/Game.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Game/CMakeFiles/Game.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Game/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Game/Game" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Game/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Game/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Plugins/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Plugins/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Plugins/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Plugins/Plugin/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Plugins/Plugin/CMakeFiles/Plugin.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Plugins/Plugin/CMakeFiles/Plugin.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Plugins/Plugin/CMakeFiles/Plugin.dir/Plugin.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Plugins/Plugin/CMakeFiles/Plugin.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Plugins/Plugin/CMakeFiles/Plugin.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Plugins/Plugin/CMakeFiles/Plugin.dir/cmake_clean_target.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Plugins/Plugin/CMakeFiles/Plugin.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Plugins/Plugin/CMakeFiles/Plugin.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Plugins/Plugin/CMakeFiles/Plugin.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Plugins/Plugin/CMakeFiles/Plugin.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Plugins/Plugin/CMakeFiles/Plugin.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Plugins/Plugin/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Plugins/Plugin/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Plugins/Plugin/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Plugins/Plugin/libPlugin.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/Plugins/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/LINUX/arm64-v8a/src/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Linux/OpenGL3/BF-level.bf" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Linux/OpenGL3/BF-level.bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Linux/OpenGL3/Levels/3denvironnementwithmediavalhome/3denvironnementwithmediavalhome.level" beforeDir="false" afterPath="$PROJECT_DIR$/Cooking/Linux/OpenGL3/Levels/3denvironnementwithmediavalhome/3denvironnementwithmediavalhome.level" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cooking/Linux/OpenGL3/Resources/Shaders/entity_standard_direct.fxb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/Levels/3denvironnementwithmediavalhome/3denvironnementwithmediavalhome.level" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/Levels/3denvironnementwithmediavalhome/3denvironnementwithmediavalhome.level" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGUI.project" beforeDir="false" afterPath="$PROJECT_DIR$/TestGUI.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGui.apk" beforeDir="false" afterPath="$PROJECT_DIR$/TestGui.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGui.zip" beforeDir="false" afterPath="$PROJECT_DIR$/TestGui.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Game." beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/OpenGL3/BF-agent.bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/OpenGL3/BF-anim.bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/OpenGL3/BF-anm.bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/OpenGL3/BF-anmlyt.bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/OpenGL3/BF-dataset.bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/OpenGL3/BF-font-abc.bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/OpenGL3/BF-font-tga.bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/OpenGL3/BF-fx.bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/OpenGL3/BF-fxh.bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/OpenGL3/BF-game-xml.bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/OpenGL3/BF-gui.bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/OpenGL3/BF-ifl.bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/OpenGL3/BF-interactions-skills.bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/OpenGL3/BF-level.bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/OpenGL3/BF-material-graphs.bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/OpenGL3/BF-materials.bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/OpenGL3/BF-mesh.bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/OpenGL3/BF-navmesh.bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/OpenGL3/BF-particles-tga.bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/OpenGL3/BF-prefab.bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/OpenGL3/BF-psbp.bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/OpenGL3/BF-psystem.bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/OpenGL3/BF-ragdollsettings.bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/OpenGL3/BF-shape.bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/OpenGL3/BF-skelanim.bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/OpenGL3/BF-sprite-info.bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/OpenGL3/BF-sprite-tga.bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/OpenGL3/BF-string-table.bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/OpenGL3/BF-submesh.bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/OpenGL3/BF-subtitles.bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/OpenGL3/BF-textures-tga.bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/OpenGL3/BF-wav.bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/OpenGL3/Settings/sounds.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/OpenGL3/Settings/texture_resources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake/Modules/FindShSDK.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake/Modules/FindShSDK.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake/Modules/FindShSDK_Editor.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake/Modules/FindShSDK_Editor.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/Game.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/Game.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp0pH2Ew.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tmp0pH2Ew.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-317946899">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cpp" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="ObjectiveC" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Game/Game.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2180" />
+    <option name="y" value="40" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GUI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Game" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae22fede-a40a-4b1f-9c14-da0d621493e1" name="Default Changelist" comment="" />
+      <created>1553069724451</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553069724451</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2180" y="40" width="1400" height="1000" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32994923" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Palette&#9;" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Game/Game.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

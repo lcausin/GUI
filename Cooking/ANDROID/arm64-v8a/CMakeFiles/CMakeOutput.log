@@ -29,28 +29,28 @@ The CXX compiler identification is GNU, found in "/home/lcausin/Documents/GUI/Co
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/android-ndk/prebuilt/linux-x86_64/bin/make" "cmTC_551f9/fast"
-/opt/android-ndk/prebuilt/linux-x86_64/bin/make -f CMakeFiles/cmTC_551f9.dir/build.make CMakeFiles/cmTC_551f9.dir/build
+Run Build Command:"/opt/android-ndk/prebuilt/linux-x86_64/bin/make" "cmTC_04973/fast"
+/opt/android-ndk/prebuilt/linux-x86_64/bin/make -f CMakeFiles/cmTC_04973.dir/build.make CMakeFiles/cmTC_04973.dir/build
 make[1]: Entering directory `/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_551f9.dir/testCCompiler.c.o
-/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64  -isystem /opt/android-ndk/platforms/android-21/arch-arm64/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_551f9.dir/testCCompiler.c.o   -c /home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_551f9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_551f9.dir/link.txt --verbose=1
-/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64 -funwind-tables -no-canonical-prefixes -fexceptions  -g  -fPIE -pie -Wl,--gc-sections  CMakeFiles/cmTC_551f9.dir/testCCompiler.c.o  -o cmTC_551f9 
+Building C object CMakeFiles/cmTC_04973.dir/testCCompiler.c.o
+/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64  -isystem /opt/android-ndk/platforms/android-21/arch-arm64/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_04973.dir/testCCompiler.c.o   -c /home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_04973
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04973.dir/link.txt --verbose=1
+/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64 -funwind-tables -no-canonical-prefixes -fexceptions  -g  -fPIE -pie -Wl,--gc-sections  CMakeFiles/cmTC_04973.dir/testCCompiler.c.o  -o cmTC_04973 
 make[1]: Leaving directory `/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/android-ndk/prebuilt/linux-x86_64/bin/make" "cmTC_3829b/fast"
-/opt/android-ndk/prebuilt/linux-x86_64/bin/make -f CMakeFiles/cmTC_3829b.dir/build.make CMakeFiles/cmTC_3829b.dir/build
+Run Build Command:"/opt/android-ndk/prebuilt/linux-x86_64/bin/make" "cmTC_d5abf/fast"
+/opt/android-ndk/prebuilt/linux-x86_64/bin/make -f CMakeFiles/cmTC_d5abf.dir/build.make CMakeFiles/cmTC_d5abf.dir/build
 make[1]: Entering directory `/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3829b.dir/CMakeCCompilerABI.c.o
-/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64  -isystem /opt/android-ndk/platforms/android-21/arch-arm64/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_3829b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.12/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_3829b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3829b.dir/link.txt --verbose=1
-/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64 -funwind-tables -no-canonical-prefixes -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -v CMakeFiles/cmTC_3829b.dir/CMakeCCompilerABI.c.o  -o cmTC_3829b 
+Building C object CMakeFiles/cmTC_d5abf.dir/CMakeCCompilerABI.c.o
+/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64  -isystem /opt/android-ndk/platforms/android-21/arch-arm64/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_d5abf.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.12/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_d5abf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5abf.dir/link.txt --verbose=1
+/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64 -funwind-tables -no-canonical-prefixes -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -v CMakeFiles/cmTC_d5abf.dir/CMakeCCompilerABI.c.o  -o cmTC_d5abf 
 Using built-in specs.
 COLLECT_GCC=/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc
 COLLECT_LTO_WRAPPER=/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/lto-wrapper
@@ -60,8 +60,8 @@ Thread model: posix
 gcc version 4.9.x 20150123 (prerelease) (GCC) 
 COMPILER_PATH=/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/:/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/:/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/
 LIBRARY_PATH=/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/:/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64/:/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/:/opt/android-ndk/platforms/android-21/arch-arm64/usr/lib/
-COLLECT_GCC_OPTIONS='-funwind-tables' '-fexceptions' '-g' '-fPIE' '-pie' '-v' '-o' 'cmTC_3829b' '-mlittle-endian' '-mabi=lp64'
- /opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/collect2 -plugin /opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/liblto_plugin.so -plugin-opt=/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbgkePL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64 --eh-frame-hdr -dynamic-linker /system/bin/linker64 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -z noexecstack -z relro -z now -pie -o cmTC_3829b /opt/android-ndk/platforms/android-21/arch-arm64/usr/lib/crtbegin_dynamic.o -L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x -L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc -L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/opt/android-ndk/platforms/android-21/arch-arm64/usr/lib --gc-sections CMakeFiles/cmTC_3829b.dir/CMakeCCompilerABI.c.o -lgcc -lc -ldl -lgcc /opt/android-ndk/platforms/android-21/arch-arm64/usr/lib/crtend_android.o
+COLLECT_GCC_OPTIONS='-funwind-tables' '-fexceptions' '-g' '-fPIE' '-pie' '-v' '-o' 'cmTC_d5abf' '-mlittle-endian' '-mabi=lp64'
+ /opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/collect2 -plugin /opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/liblto_plugin.so -plugin-opt=/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/lto-wrapper -plugin-opt=-fresolution=/tmp/ccz6ZEx9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64 --eh-frame-hdr -dynamic-linker /system/bin/linker64 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -z noexecstack -z relro -z now -pie -o cmTC_d5abf /opt/android-ndk/platforms/android-21/arch-arm64/usr/lib/crtbegin_dynamic.o -L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x -L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc -L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/opt/android-ndk/platforms/android-21/arch-arm64/usr/lib --gc-sections CMakeFiles/cmTC_d5abf.dir/CMakeCCompilerABI.c.o -lgcc -lc -ldl -lgcc /opt/android-ndk/platforms/android-21/arch-arm64/usr/lib/crtend_android.o
 make[1]: Leaving directory `/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp'
 
 
@@ -69,14 +69,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(aarch64-linux-android-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/opt/android-ndk/prebuilt/linux-x86_64/bin/make" "cmTC_3829b/fast"]
-  ignore line: [/opt/android-ndk/prebuilt/linux-x86_64/bin/make -f CMakeFiles/cmTC_3829b.dir/build.make CMakeFiles/cmTC_3829b.dir/build]
+  ignore line: [Run Build Command:"/opt/android-ndk/prebuilt/linux-x86_64/bin/make" "cmTC_d5abf/fast"]
+  ignore line: [/opt/android-ndk/prebuilt/linux-x86_64/bin/make -f CMakeFiles/cmTC_d5abf.dir/build.make CMakeFiles/cmTC_d5abf.dir/build]
   ignore line: [make[1]: Entering directory `/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_3829b.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64  -isystem /opt/android-ndk/platforms/android-21/arch-arm64/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_3829b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.12/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_3829b]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3829b.dir/link.txt --verbose=1]
-  ignore line: [/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64 -funwind-tables -no-canonical-prefixes -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -v CMakeFiles/cmTC_3829b.dir/CMakeCCompilerABI.c.o  -o cmTC_3829b ]
+  ignore line: [Building C object CMakeFiles/cmTC_d5abf.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64  -isystem /opt/android-ndk/platforms/android-21/arch-arm64/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions  -g -fPIE   -o CMakeFiles/cmTC_d5abf.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.12/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_d5abf]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5abf.dir/link.txt --verbose=1]
+  ignore line: [/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64 -funwind-tables -no-canonical-prefixes -fexceptions  -g  -fPIE -pie -Wl,--gc-sections -v CMakeFiles/cmTC_d5abf.dir/CMakeCCompilerABI.c.o  -o cmTC_d5abf ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/lto-wrapper]
@@ -86,13 +86,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 4.9.x 20150123 (prerelease) (GCC) ]
   ignore line: [COMPILER_PATH=/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/:/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/:/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/]
   ignore line: [LIBRARY_PATH=/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/:/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64/:/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/:/opt/android-ndk/platforms/android-21/arch-arm64/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-funwind-tables' '-fexceptions' '-g' '-fPIE' '-pie' '-v' '-o' 'cmTC_3829b' '-mlittle-endian' '-mabi=lp64']
-  link line: [ /opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/collect2 -plugin /opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/liblto_plugin.so -plugin-opt=/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbgkePL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64 --eh-frame-hdr -dynamic-linker /system/bin/linker64 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -z noexecstack -z relro -z now -pie -o cmTC_3829b /opt/android-ndk/platforms/android-21/arch-arm64/usr/lib/crtbegin_dynamic.o -L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x -L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc -L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/opt/android-ndk/platforms/android-21/arch-arm64/usr/lib --gc-sections CMakeFiles/cmTC_3829b.dir/CMakeCCompilerABI.c.o -lgcc -lc -ldl -lgcc /opt/android-ndk/platforms/android-21/arch-arm64/usr/lib/crtend_android.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-funwind-tables' '-fexceptions' '-g' '-fPIE' '-pie' '-v' '-o' 'cmTC_d5abf' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/collect2 -plugin /opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/liblto_plugin.so -plugin-opt=/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/lto-wrapper -plugin-opt=-fresolution=/tmp/ccz6ZEx9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64 --eh-frame-hdr -dynamic-linker /system/bin/linker64 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -z noexecstack -z relro -z now -pie -o cmTC_d5abf /opt/android-ndk/platforms/android-21/arch-arm64/usr/lib/crtbegin_dynamic.o -L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x -L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc -L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/opt/android-ndk/platforms/android-21/arch-arm64/usr/lib --gc-sections CMakeFiles/cmTC_d5abf.dir/CMakeCCompilerABI.c.o -lgcc -lc -ldl -lgcc /opt/android-ndk/platforms/android-21/arch-arm64/usr/lib/crtend_android.o]
     arg [/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccbgkePL.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccz6ZEx9.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-ldl] ==> ignore
@@ -111,7 +111,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_3829b] ==> ignore
+    arg [cmTC_d5abf] ==> ignore
     arg [/opt/android-ndk/platforms/android-21/arch-arm64/usr/lib/crtbegin_dynamic.o] ==> ignore
     arg [-L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x] ==> dir [/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x]
     arg [-L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc] ==> dir [/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc]
@@ -119,7 +119,7 @@ Parsed C implicit link information from above output:
     arg [-L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib] ==> dir [/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib]
     arg [-L/opt/android-ndk/platforms/android-21/arch-arm64/usr/lib] ==> dir [/opt/android-ndk/platforms/android-21/arch-arm64/usr/lib]
     arg [--gc-sections] ==> ignore
-    arg [CMakeFiles/cmTC_3829b.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_d5abf.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-lc] ==> lib [c]
     arg [-ldl] ==> lib [dl]
@@ -140,14 +140,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/android-ndk/prebuilt/linux-x86_64/bin/make" "cmTC_c329e/fast"
-/opt/android-ndk/prebuilt/linux-x86_64/bin/make -f CMakeFiles/cmTC_c329e.dir/build.make CMakeFiles/cmTC_c329e.dir/build
+Run Build Command:"/opt/android-ndk/prebuilt/linux-x86_64/bin/make" "cmTC_bc1ca/fast"
+/opt/android-ndk/prebuilt/linux-x86_64/bin/make -f CMakeFiles/cmTC_bc1ca.dir/build.make CMakeFiles/cmTC_bc1ca.dir/build
 make[1]: Entering directory `/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c329e.dir/feature_tests.c.o
-/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64  -isystem /opt/android-ndk/platforms/android-21/arch-arm64/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions  -g -fPIE   -std=c11 -o CMakeFiles/cmTC_c329e.dir/feature_tests.c.o   -c /home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/feature_tests.c
-Linking C executable cmTC_c329e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c329e.dir/link.txt --verbose=1
-/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64 -funwind-tables -no-canonical-prefixes -fexceptions  -g  -fPIE -pie -Wl,--gc-sections  CMakeFiles/cmTC_c329e.dir/feature_tests.c.o  -o cmTC_c329e 
+Building C object CMakeFiles/cmTC_bc1ca.dir/feature_tests.c.o
+/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64  -isystem /opt/android-ndk/platforms/android-21/arch-arm64/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions  -g -fPIE   -std=c11 -o CMakeFiles/cmTC_bc1ca.dir/feature_tests.c.o   -c /home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/feature_tests.c
+Linking C executable cmTC_bc1ca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc1ca.dir/link.txt --verbose=1
+/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64 -funwind-tables -no-canonical-prefixes -fexceptions  -g  -fPIE -pie -Wl,--gc-sections  CMakeFiles/cmTC_bc1ca.dir/feature_tests.c.o  -o cmTC_bc1ca 
 make[1]: Leaving directory `/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp'
 
 
@@ -160,14 +160,14 @@ make[1]: Leaving directory `/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/android-ndk/prebuilt/linux-x86_64/bin/make" "cmTC_09a54/fast"
-/opt/android-ndk/prebuilt/linux-x86_64/bin/make -f CMakeFiles/cmTC_09a54.dir/build.make CMakeFiles/cmTC_09a54.dir/build
+Run Build Command:"/opt/android-ndk/prebuilt/linux-x86_64/bin/make" "cmTC_8fdfb/fast"
+/opt/android-ndk/prebuilt/linux-x86_64/bin/make -f CMakeFiles/cmTC_8fdfb.dir/build.make CMakeFiles/cmTC_8fdfb.dir/build
 make[1]: Entering directory `/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_09a54.dir/feature_tests.c.o
-/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64  -isystem /opt/android-ndk/platforms/android-21/arch-arm64/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions  -g -fPIE   -std=c99 -o CMakeFiles/cmTC_09a54.dir/feature_tests.c.o   -c /home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/feature_tests.c
-Linking C executable cmTC_09a54
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09a54.dir/link.txt --verbose=1
-/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64 -funwind-tables -no-canonical-prefixes -fexceptions  -g  -fPIE -pie -Wl,--gc-sections  CMakeFiles/cmTC_09a54.dir/feature_tests.c.o  -o cmTC_09a54 
+Building C object CMakeFiles/cmTC_8fdfb.dir/feature_tests.c.o
+/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64  -isystem /opt/android-ndk/platforms/android-21/arch-arm64/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions  -g -fPIE   -std=c99 -o CMakeFiles/cmTC_8fdfb.dir/feature_tests.c.o   -c /home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8fdfb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fdfb.dir/link.txt --verbose=1
+/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64 -funwind-tables -no-canonical-prefixes -fexceptions  -g  -fPIE -pie -Wl,--gc-sections  CMakeFiles/cmTC_8fdfb.dir/feature_tests.c.o  -o cmTC_8fdfb 
 make[1]: Leaving directory `/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp'
 
 
@@ -180,14 +180,14 @@ make[1]: Leaving directory `/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/android-ndk/prebuilt/linux-x86_64/bin/make" "cmTC_40965/fast"
-/opt/android-ndk/prebuilt/linux-x86_64/bin/make -f CMakeFiles/cmTC_40965.dir/build.make CMakeFiles/cmTC_40965.dir/build
+Run Build Command:"/opt/android-ndk/prebuilt/linux-x86_64/bin/make" "cmTC_ef07e/fast"
+/opt/android-ndk/prebuilt/linux-x86_64/bin/make -f CMakeFiles/cmTC_ef07e.dir/build.make CMakeFiles/cmTC_ef07e.dir/build
 make[1]: Entering directory `/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_40965.dir/feature_tests.c.o
-/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64  -isystem /opt/android-ndk/platforms/android-21/arch-arm64/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions  -g -fPIE   -std=c90 -o CMakeFiles/cmTC_40965.dir/feature_tests.c.o   -c /home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/feature_tests.c
-Linking C executable cmTC_40965
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40965.dir/link.txt --verbose=1
-/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64 -funwind-tables -no-canonical-prefixes -fexceptions  -g  -fPIE -pie -Wl,--gc-sections  CMakeFiles/cmTC_40965.dir/feature_tests.c.o  -o cmTC_40965 
+Building C object CMakeFiles/cmTC_ef07e.dir/feature_tests.c.o
+/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64  -isystem /opt/android-ndk/platforms/android-21/arch-arm64/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions  -g -fPIE   -std=c90 -o CMakeFiles/cmTC_ef07e.dir/feature_tests.c.o   -c /home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ef07e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef07e.dir/link.txt --verbose=1
+/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64 -funwind-tables -no-canonical-prefixes -fexceptions  -g  -fPIE -pie -Wl,--gc-sections  CMakeFiles/cmTC_ef07e.dir/feature_tests.c.o  -o cmTC_ef07e 
 make[1]: Leaving directory `/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp'
 
 
@@ -198,28 +198,28 @@ make[1]: Leaving directory `/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/android-ndk/prebuilt/linux-x86_64/bin/make" "cmTC_8e0ab/fast"
-/opt/android-ndk/prebuilt/linux-x86_64/bin/make -f CMakeFiles/cmTC_8e0ab.dir/build.make CMakeFiles/cmTC_8e0ab.dir/build
+Run Build Command:"/opt/android-ndk/prebuilt/linux-x86_64/bin/make" "cmTC_0031a/fast"
+/opt/android-ndk/prebuilt/linux-x86_64/bin/make -f CMakeFiles/cmTC_0031a.dir/build.make CMakeFiles/cmTC_0031a.dir/build
 make[1]: Entering directory `/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8e0ab.dir/testCXXCompiler.cxx.o
-/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64   -isystem /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /opt/android-ndk/platforms/android-21/arch-arm64/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions -frtti  -g -fPIE   -o CMakeFiles/cmTC_8e0ab.dir/testCXXCompiler.cxx.o -c /home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_8e0ab
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e0ab.dir/link.txt --verbose=1
-/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64  -funwind-tables -no-canonical-prefixes -fexceptions -frtti  -g  -fPIE -pie -Wl,--gc-sections  CMakeFiles/cmTC_8e0ab.dir/testCXXCompiler.cxx.o  -o cmTC_8e0ab  "/opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/libgnustl_static.a" -nodefaultlibs -lgcc -lc -lm -ldl 
+Building CXX object CMakeFiles/cmTC_0031a.dir/testCXXCompiler.cxx.o
+/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64   -isystem /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /opt/android-ndk/platforms/android-21/arch-arm64/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions -frtti  -g -fPIE   -o CMakeFiles/cmTC_0031a.dir/testCXXCompiler.cxx.o -c /home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_0031a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0031a.dir/link.txt --verbose=1
+/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64  -funwind-tables -no-canonical-prefixes -fexceptions -frtti  -g  -fPIE -pie -Wl,--gc-sections  CMakeFiles/cmTC_0031a.dir/testCXXCompiler.cxx.o  -o cmTC_0031a  "/opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/libgnustl_static.a" -nodefaultlibs -lgcc -lc -lm -ldl 
 make[1]: Leaving directory `/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/android-ndk/prebuilt/linux-x86_64/bin/make" "cmTC_3ddc5/fast"
-/opt/android-ndk/prebuilt/linux-x86_64/bin/make -f CMakeFiles/cmTC_3ddc5.dir/build.make CMakeFiles/cmTC_3ddc5.dir/build
+Run Build Command:"/opt/android-ndk/prebuilt/linux-x86_64/bin/make" "cmTC_590ef/fast"
+/opt/android-ndk/prebuilt/linux-x86_64/bin/make -f CMakeFiles/cmTC_590ef.dir/build.make CMakeFiles/cmTC_590ef.dir/build
 make[1]: Entering directory `/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3ddc5.dir/CMakeCXXCompilerABI.cpp.o
-/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64   -isystem /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /opt/android-ndk/platforms/android-21/arch-arm64/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions -frtti  -g -fPIE   -o CMakeFiles/cmTC_3ddc5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_3ddc5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ddc5.dir/link.txt --verbose=1
-/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64  -funwind-tables -no-canonical-prefixes -fexceptions -frtti  -g  -fPIE -pie -Wl,--gc-sections -v CMakeFiles/cmTC_3ddc5.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_3ddc5  "/opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/libgnustl_static.a" -nodefaultlibs -lgcc -lc -lm -ldl 
+Building CXX object CMakeFiles/cmTC_590ef.dir/CMakeCXXCompilerABI.cpp.o
+/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64   -isystem /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /opt/android-ndk/platforms/android-21/arch-arm64/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions -frtti  -g -fPIE   -o CMakeFiles/cmTC_590ef.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_590ef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_590ef.dir/link.txt --verbose=1
+/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64  -funwind-tables -no-canonical-prefixes -fexceptions -frtti  -g  -fPIE -pie -Wl,--gc-sections -v CMakeFiles/cmTC_590ef.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_590ef  "/opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/libgnustl_static.a" -nodefaultlibs -lgcc -lc -lm -ldl 
 Using built-in specs.
 COLLECT_GCC=/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++
 COLLECT_LTO_WRAPPER=/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/lto-wrapper
@@ -229,8 +229,8 @@ Thread model: posix
 gcc version 4.9.x 20150123 (prerelease) (GCC) 
 COMPILER_PATH=/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/:/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/:/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/
 LIBRARY_PATH=/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/:/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64/:/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/:/opt/android-ndk/platforms/android-21/arch-arm64/usr/lib/
-COLLECT_GCC_OPTIONS='-funwind-tables' '-fexceptions' '-frtti' '-g' '-fPIE' '-pie' '-v' '-o' 'cmTC_3ddc5' '-nodefaultlibs' '-mlittle-endian' '-mabi=lp64'
- /opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/collect2 -plugin /opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/liblto_plugin.so -plugin-opt=/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUOl3zn.res --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64 --eh-frame-hdr -dynamic-linker /system/bin/linker64 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -z noexecstack -z relro -z now -pie -o cmTC_3ddc5 /opt/android-ndk/platforms/android-21/arch-arm64/usr/lib/crtbegin_dynamic.o -L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x -L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc -L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/opt/android-ndk/platforms/android-21/arch-arm64/usr/lib --gc-sections CMakeFiles/cmTC_3ddc5.dir/CMakeCXXCompilerABI.cpp.o /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/libgnustl_static.a -lgcc -lc -lm -ldl /opt/android-ndk/platforms/android-21/arch-arm64/usr/lib/crtend_android.o
+COLLECT_GCC_OPTIONS='-funwind-tables' '-fexceptions' '-frtti' '-g' '-fPIE' '-pie' '-v' '-o' 'cmTC_590ef' '-nodefaultlibs' '-mlittle-endian' '-mabi=lp64'
+ /opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/collect2 -plugin /opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/liblto_plugin.so -plugin-opt=/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZWUGbq.res --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64 --eh-frame-hdr -dynamic-linker /system/bin/linker64 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -z noexecstack -z relro -z now -pie -o cmTC_590ef /opt/android-ndk/platforms/android-21/arch-arm64/usr/lib/crtbegin_dynamic.o -L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x -L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc -L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/opt/android-ndk/platforms/android-21/arch-arm64/usr/lib --gc-sections CMakeFiles/cmTC_590ef.dir/CMakeCXXCompilerABI.cpp.o /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/libgnustl_static.a -lgcc -lc -lm -ldl /opt/android-ndk/platforms/android-21/arch-arm64/usr/lib/crtend_android.o
 make[1]: Leaving directory `/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp'
 
 
@@ -238,14 +238,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(aarch64-linux-android-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/opt/android-ndk/prebuilt/linux-x86_64/bin/make" "cmTC_3ddc5/fast"]
-  ignore line: [/opt/android-ndk/prebuilt/linux-x86_64/bin/make -f CMakeFiles/cmTC_3ddc5.dir/build.make CMakeFiles/cmTC_3ddc5.dir/build]
+  ignore line: [Run Build Command:"/opt/android-ndk/prebuilt/linux-x86_64/bin/make" "cmTC_590ef/fast"]
+  ignore line: [/opt/android-ndk/prebuilt/linux-x86_64/bin/make -f CMakeFiles/cmTC_590ef.dir/build.make CMakeFiles/cmTC_590ef.dir/build]
   ignore line: [make[1]: Entering directory `/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_3ddc5.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64   -isystem /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /opt/android-ndk/platforms/android-21/arch-arm64/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions -frtti  -g -fPIE   -o CMakeFiles/cmTC_3ddc5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_3ddc5]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ddc5.dir/link.txt --verbose=1]
-  ignore line: [/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64  -funwind-tables -no-canonical-prefixes -fexceptions -frtti  -g  -fPIE -pie -Wl,--gc-sections -v CMakeFiles/cmTC_3ddc5.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_3ddc5  "/opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/libgnustl_static.a" -nodefaultlibs -lgcc -lc -lm -ldl ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_590ef.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64   -isystem /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /opt/android-ndk/platforms/android-21/arch-arm64/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions -frtti  -g -fPIE   -o CMakeFiles/cmTC_590ef.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_590ef]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_590ef.dir/link.txt --verbose=1]
+  ignore line: [/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64  -funwind-tables -no-canonical-prefixes -fexceptions -frtti  -g  -fPIE -pie -Wl,--gc-sections -v CMakeFiles/cmTC_590ef.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_590ef  "/opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/libgnustl_static.a" -nodefaultlibs -lgcc -lc -lm -ldl ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++]
   ignore line: [COLLECT_LTO_WRAPPER=/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/lto-wrapper]
@@ -255,13 +255,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 4.9.x 20150123 (prerelease) (GCC) ]
   ignore line: [COMPILER_PATH=/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/:/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/:/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/]
   ignore line: [LIBRARY_PATH=/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/:/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64/:/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/:/opt/android-ndk/platforms/android-21/arch-arm64/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-funwind-tables' '-fexceptions' '-frtti' '-g' '-fPIE' '-pie' '-v' '-o' 'cmTC_3ddc5' '-nodefaultlibs' '-mlittle-endian' '-mabi=lp64']
-  link line: [ /opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/collect2 -plugin /opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/liblto_plugin.so -plugin-opt=/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUOl3zn.res --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64 --eh-frame-hdr -dynamic-linker /system/bin/linker64 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -z noexecstack -z relro -z now -pie -o cmTC_3ddc5 /opt/android-ndk/platforms/android-21/arch-arm64/usr/lib/crtbegin_dynamic.o -L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x -L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc -L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/opt/android-ndk/platforms/android-21/arch-arm64/usr/lib --gc-sections CMakeFiles/cmTC_3ddc5.dir/CMakeCXXCompilerABI.cpp.o /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/libgnustl_static.a -lgcc -lc -lm -ldl /opt/android-ndk/platforms/android-21/arch-arm64/usr/lib/crtend_android.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-funwind-tables' '-fexceptions' '-frtti' '-g' '-fPIE' '-pie' '-v' '-o' 'cmTC_590ef' '-nodefaultlibs' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/collect2 -plugin /opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/liblto_plugin.so -plugin-opt=/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZWUGbq.res --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64 --eh-frame-hdr -dynamic-linker /system/bin/linker64 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -z noexecstack -z relro -z now -pie -o cmTC_590ef /opt/android-ndk/platforms/android-21/arch-arm64/usr/lib/crtbegin_dynamic.o -L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x -L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc -L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/opt/android-ndk/platforms/android-21/arch-arm64/usr/lib --gc-sections CMakeFiles/cmTC_590ef.dir/CMakeCXXCompilerABI.cpp.o /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/libgnustl_static.a -lgcc -lc -lm -ldl /opt/android-ndk/platforms/android-21/arch-arm64/usr/lib/crtend_android.o]
     arg [/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccUOl3zn.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccZWUGbq.res] ==> ignore
     arg [--sysroot=/opt/android-ndk/platforms/android-21/arch-arm64] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-dynamic-linker] ==> ignore
@@ -276,7 +276,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_3ddc5] ==> ignore
+    arg [cmTC_590ef] ==> ignore
     arg [/opt/android-ndk/platforms/android-21/arch-arm64/usr/lib/crtbegin_dynamic.o] ==> ignore
     arg [-L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x] ==> dir [/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x]
     arg [-L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc] ==> dir [/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc]
@@ -284,7 +284,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib] ==> dir [/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib]
     arg [-L/opt/android-ndk/platforms/android-21/arch-arm64/usr/lib] ==> dir [/opt/android-ndk/platforms/android-21/arch-arm64/usr/lib]
     arg [--gc-sections] ==> ignore
-    arg [CMakeFiles/cmTC_3ddc5.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_590ef.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [/opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/libgnustl_static.a] ==> lib [/opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/libgnustl_static.a]
     arg [-lgcc] ==> lib [gcc]
     arg [-lc] ==> lib [c]
@@ -306,14 +306,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/android-ndk/prebuilt/linux-x86_64/bin/make" "cmTC_f4bec/fast"
-/opt/android-ndk/prebuilt/linux-x86_64/bin/make -f CMakeFiles/cmTC_f4bec.dir/build.make CMakeFiles/cmTC_f4bec.dir/build
+Run Build Command:"/opt/android-ndk/prebuilt/linux-x86_64/bin/make" "cmTC_e3fe7/fast"
+/opt/android-ndk/prebuilt/linux-x86_64/bin/make -f CMakeFiles/cmTC_e3fe7.dir/build.make CMakeFiles/cmTC_e3fe7.dir/build
 make[1]: Entering directory `/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f4bec.dir/feature_tests.cxx.o
-/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64   -isystem /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /opt/android-ndk/platforms/android-21/arch-arm64/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions -frtti  -g -fPIE   -std=c++14 -o CMakeFiles/cmTC_f4bec.dir/feature_tests.cxx.o -c /home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f4bec
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4bec.dir/link.txt --verbose=1
-/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64  -funwind-tables -no-canonical-prefixes -fexceptions -frtti  -g  -fPIE -pie -Wl,--gc-sections  CMakeFiles/cmTC_f4bec.dir/feature_tests.cxx.o  -o cmTC_f4bec  "/opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/libgnustl_static.a" -nodefaultlibs -lgcc -lc -lm -ldl 
+Building CXX object CMakeFiles/cmTC_e3fe7.dir/feature_tests.cxx.o
+/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64   -isystem /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /opt/android-ndk/platforms/android-21/arch-arm64/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions -frtti  -g -fPIE   -std=c++14 -o CMakeFiles/cmTC_e3fe7.dir/feature_tests.cxx.o -c /home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e3fe7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3fe7.dir/link.txt --verbose=1
+/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64  -funwind-tables -no-canonical-prefixes -fexceptions -frtti  -g  -fPIE -pie -Wl,--gc-sections  CMakeFiles/cmTC_e3fe7.dir/feature_tests.cxx.o  -o cmTC_e3fe7  "/opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/libgnustl_static.a" -nodefaultlibs -lgcc -lc -lm -ldl 
 make[1]: Leaving directory `/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp'
 
 
@@ -379,14 +379,14 @@ make[1]: Leaving directory `/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/android-ndk/prebuilt/linux-x86_64/bin/make" "cmTC_2753e/fast"
-/opt/android-ndk/prebuilt/linux-x86_64/bin/make -f CMakeFiles/cmTC_2753e.dir/build.make CMakeFiles/cmTC_2753e.dir/build
+Run Build Command:"/opt/android-ndk/prebuilt/linux-x86_64/bin/make" "cmTC_eeac7/fast"
+/opt/android-ndk/prebuilt/linux-x86_64/bin/make -f CMakeFiles/cmTC_eeac7.dir/build.make CMakeFiles/cmTC_eeac7.dir/build
 make[1]: Entering directory `/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2753e.dir/feature_tests.cxx.o
-/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64   -isystem /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /opt/android-ndk/platforms/android-21/arch-arm64/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions -frtti  -g -fPIE   -std=c++11 -o CMakeFiles/cmTC_2753e.dir/feature_tests.cxx.o -c /home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_2753e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2753e.dir/link.txt --verbose=1
-/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64  -funwind-tables -no-canonical-prefixes -fexceptions -frtti  -g  -fPIE -pie -Wl,--gc-sections  CMakeFiles/cmTC_2753e.dir/feature_tests.cxx.o  -o cmTC_2753e  "/opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/libgnustl_static.a" -nodefaultlibs -lgcc -lc -lm -ldl 
+Building CXX object CMakeFiles/cmTC_eeac7.dir/feature_tests.cxx.o
+/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64   -isystem /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /opt/android-ndk/platforms/android-21/arch-arm64/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions -frtti  -g -fPIE   -std=c++11 -o CMakeFiles/cmTC_eeac7.dir/feature_tests.cxx.o -c /home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_eeac7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eeac7.dir/link.txt --verbose=1
+/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64  -funwind-tables -no-canonical-prefixes -fexceptions -frtti  -g  -fPIE -pie -Wl,--gc-sections  CMakeFiles/cmTC_eeac7.dir/feature_tests.cxx.o  -o cmTC_eeac7  "/opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/libgnustl_static.a" -nodefaultlibs -lgcc -lc -lm -ldl 
 make[1]: Leaving directory `/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp'
 
 
@@ -452,14 +452,14 @@ make[1]: Leaving directory `/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/opt/android-ndk/prebuilt/linux-x86_64/bin/make" "cmTC_97433/fast"
-/opt/android-ndk/prebuilt/linux-x86_64/bin/make -f CMakeFiles/cmTC_97433.dir/build.make CMakeFiles/cmTC_97433.dir/build
+Run Build Command:"/opt/android-ndk/prebuilt/linux-x86_64/bin/make" "cmTC_ca888/fast"
+/opt/android-ndk/prebuilt/linux-x86_64/bin/make -f CMakeFiles/cmTC_ca888.dir/build.make CMakeFiles/cmTC_ca888.dir/build
 make[1]: Entering directory `/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_97433.dir/feature_tests.cxx.o
-/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64   -isystem /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /opt/android-ndk/platforms/android-21/arch-arm64/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions -frtti  -g -fPIE   -std=c++98 -o CMakeFiles/cmTC_97433.dir/feature_tests.cxx.o -c /home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_97433
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97433.dir/link.txt --verbose=1
-/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64  -funwind-tables -no-canonical-prefixes -fexceptions -frtti  -g  -fPIE -pie -Wl,--gc-sections  CMakeFiles/cmTC_97433.dir/feature_tests.cxx.o  -o cmTC_97433  "/opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/libgnustl_static.a" -nodefaultlibs -lgcc -lc -lm -ldl 
+Building CXX object CMakeFiles/cmTC_ca888.dir/feature_tests.cxx.o
+/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64   -isystem /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /opt/android-ndk/platforms/android-21/arch-arm64/usr/include  -funwind-tables -no-canonical-prefixes -fexceptions -frtti  -g -fPIE   -std=c++98 -o CMakeFiles/cmTC_ca888.dir/feature_tests.cxx.o -c /home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ca888
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca888.dir/link.txt --verbose=1
+/opt/android-ndk/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ --sysroot=/opt/android-ndk/platforms/android-21/arch-arm64  -funwind-tables -no-canonical-prefixes -fexceptions -frtti  -g  -fPIE -pie -Wl,--gc-sections  CMakeFiles/cmTC_ca888.dir/feature_tests.cxx.o  -o cmTC_ca888  "/opt/android-ndk/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/libgnustl_static.a" -nodefaultlibs -lgcc -lc -lm -ldl 
 make[1]: Leaving directory `/home/lcausin/Documents/GUI/Cooking/ANDROID/arm64-v8a/CMakeFiles/CMakeTmp'
 
 

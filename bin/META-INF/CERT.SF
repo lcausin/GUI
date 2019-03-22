@@ -1,0 +1,149 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: d3AaU9DuX30TAP+ccBMQC3BIqFw=
+X-Android-APK-Signed: 2
+
+Name: AndroidManifest.xml
+SHA1-Digest: gSIn0ubULqvOCpnrZt2p1wf5z/Q=
+
+Name: assets/BF-agent.bf
+SHA1-Digest: ORZfAhx+qVjELHkc9TSLjw4Evo8=
+
+Name: assets/BF-anim.bf
+SHA1-Digest: Pia9fU0I8Vv5RIlo/mE9gH9kJ2w=
+
+Name: assets/BF-anm.bf
+SHA1-Digest: qQgIxIwTAik3/LqzlDjYU9kelm0=
+
+Name: assets/BF-anmlyt.bf
+SHA1-Digest: JbC4TDGknw2SEl4uXyF46HuruGY=
+
+Name: assets/BF-dataset.bf
+SHA1-Digest: QVGgoDVORwAs6Hsy6k5jihuG3Qc=
+
+Name: assets/BF-font-abc.bf
+SHA1-Digest: q45ArVa6f/OA+8LBX1MLPO+grIw=
+
+Name: assets/BF-font-tga.bf
+SHA1-Digest: 9rkmRicXFnTIBMQPzxiNeGCPXWY=
+
+Name: assets/BF-fx.bf
+SHA1-Digest: O9LjAWo1MKMm7zEpU7iMKKyeAH4=
+
+Name: assets/BF-fxh.bf
+SHA1-Digest: dLWlw0hQD4mDuZlnrUxVLkWpGPY=
+
+Name: assets/BF-game-xml.bf
+SHA1-Digest: reqi3iki91u5u/k7hC0/bEFrqB0=
+
+Name: assets/BF-gui.bf
+SHA1-Digest: Vsl7qc7MAx01Kz8EzKoXsIDKAmI=
+
+Name: assets/BF-ifl.bf
+SHA1-Digest: 59kY2UIhitxs+hbr9MhUryHwf5w=
+
+Name: assets/BF-interactions-skills.bf
+SHA1-Digest: FmY1Wi/WASx9j058S4n683ExY/w=
+
+Name: assets/BF-level.bf
+SHA1-Digest: 6vFhAh6fnj9wpKKUoYcSv5P+ujs=
+
+Name: assets/BF-material-graphs.bf
+SHA1-Digest: klE6MJ2dARINaZpjWsyJ5HvON8w=
+
+Name: assets/BF-materials.bf
+SHA1-Digest: sq2WNccGVG1uXMoOIVBS5pikrUI=
+
+Name: assets/BF-mesh.bf
+SHA1-Digest: bwNi4ytPtwaSoTsDauyeLsNdXKM=
+
+Name: assets/BF-navmesh.bf
+SHA1-Digest: 6mN6TDi5D7GX2z1bKU5jMmxb9BM=
+
+Name: assets/BF-particles-tga.bf
+SHA1-Digest: YJ/Mhf7ZxlgCpp3f1mTRTgJ4wdg=
+
+Name: assets/BF-prefab.bf
+SHA1-Digest: pz/NcgYdGxt+SohZcFnItqfZwEM=
+
+Name: assets/BF-psbp.bf
+SHA1-Digest: Ns0UZUfivhwATHTCa+wnB75G8ps=
+
+Name: assets/BF-psystem.bf
+SHA1-Digest: PLB1fr6SXh5iXNmQWBWcVEDwcvQ=
+
+Name: assets/BF-ragdollsettings.bf
+SHA1-Digest: 31gaAKVLGq2awBHEbcNV/6hVseg=
+
+Name: assets/BF-shape.bf
+SHA1-Digest: iTXbGIIoe23kdxlM4MuERXC0Ynk=
+
+Name: assets/BF-skelanim.bf
+SHA1-Digest: uOOWha/TeXGsSN8fQm1MECjAuws=
+
+Name: assets/BF-sprite-info.bf
+SHA1-Digest: vAocKRLyTrTjsAixlAh6hoyYlzo=
+
+Name: assets/BF-sprite-tga.bf
+SHA1-Digest: TsI2NCXjjhWxbcDVhh3+kPeHSQw=
+
+Name: assets/BF-string-table.bf
+SHA1-Digest: 0e8Yh2HpOVU+twLcmMC0aDUCUgo=
+
+Name: assets/BF-submesh.bf
+SHA1-Digest: IiXMWunVY8aVoAPr0LJINYSh/+0=
+
+Name: assets/BF-subtitles.bf
+SHA1-Digest: ReBeCwbyMsXLgPtNTrSG5enCSSg=
+
+Name: assets/BF-textures-tga.bf
+SHA1-Digest: 27sUA/4m+P14VpvEXcPrpRuW/G0=
+
+Name: assets/BF-wav.bf
+SHA1-Digest: xVdOQLFfghArpkOfUQuK34P/QAc=
+
+Name: assets/Settings/FbxImportationParameters_EntityStandard.xml
+SHA1-Digest: WxwROKY3if4rEwge+lGlkaII1pc=
+
+Name: assets/Settings/sounds.xml
+SHA1-Digest: F0C4sgL3HZGc6aywiEyYNaeN6xs=
+
+Name: assets/Settings/texture_resources.xml
+SHA1-Digest: pUKcX6oNNgOaLClxtk9k8cYtnZI=
+
+Name: classes.dex
+SHA1-Digest: jtKHE23CNB5rfgrauBtIXga+ErE=
+
+Name: lib/armeabi-v7a/libShineApp.so
+SHA1-Digest: 5XSCsNlubJopvAllKsaTSXoGThU=
+
+Name: res/drawable-hdpi-v4/ic_launcher.png
+SHA1-Digest: t6DtlNZ5eXMfqsZlMVmALICaNTs=
+
+Name: res/drawable-ldpi-v4/ic_launcher.png
+SHA1-Digest: kO4nCPplLp3qM9ZbEMAb0jOZaqg=
+
+Name: res/drawable-mdpi-v4/ic_launcher.png
+SHA1-Digest: 27VIoROMc+4d9n5C7iyAt1Xs2XY=
+
+Name: res/drawable-xhdpi-v4/ic_launcher.png
+SHA1-Digest: 2cBzaIqD71gae7iThTbQJuur+h4=
+
+Name: res/drawable-xxhdpi-v4/ic_launcher.png
+SHA1-Digest: 7Te77N/vaU2gpeGmzEAo2J0Cjvk=
+
+Name: res/drawable-xxxhdpi-v4/ic_launcher.png
+SHA1-Digest: IYpcmawmXNdUbBZUvWFTYMln8Q4=
+
+Name: res/drawable/splash.jpg
+SHA1-Digest: QODeA30kkYobG/STRJHm60dbRR8=
+
+Name: res/layout/launch_screen.xml
+SHA1-Digest: Vy3qWqLUT2VDb3k6dBVM2mkduGY=
+
+Name: res/xml/provider_paths.xml
+SHA1-Digest: 1GN9pUpxuAKsstSzaQO8DpsAdkg=
+
+Name: resources.arsc
+SHA1-Digest: X8KiicfRMGkYzTb+wqnbU1rwJlM=
+

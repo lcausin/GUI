@@ -1,0 +1,55 @@
+<render_graph graph_name="render_graph_dx11_skybox" engine_save_ver="0.0.0">
+	<render_target_list>
+     		<render_target name="target_color_shadow"               type="color"    width="2048"    height="2048"   msaa="msaa_none"    pixel_format="pixelformat_ARGB8"        texture_flags="texture_flags_renderable"/>
+		<render_target name="target_depth_shadow"               type="depth"    width="2048"    height="2048"   msaa="msaa_none"    pixel_format="pixelformat_Z24S8"        texture_flags="texture_flags_renderable"/>
+        	<render_target name="target_color_normal"               type="color"    width="r1"      height="r1"     msaa="msaa_none"    pixel_format="pixelformat_ARGB8"        texture_flags="texture_flags_renderable"/>
+		<render_target name="target_depth"                      type="depth"    width="r1"      height="r1"     msaa="msaa_none"    pixel_format="pixelformat_Z24S8"        texture_flags="texture_flags_renderable"/>
+		<render_target name="target_color_Light_pass"           type="color"    width="r1"      height="r1"     msaa="msaa_none"    pixel_format="pixelformat_ARGB8"        texture_flags="texture_flags_renderable"/>
+		<render_target name="target_color_Light_pre_pass"       type="color"    width="r1"      height="r1"     msaa="msaa_none"    pixel_format="pixelformat_ARGB8"        texture_flags="texture_flags_renderable"/>
+	</render_target_list>
+
+    <framebuffer_list>
+        <framebuffer name="framebuffer_shadow_renderer"		target_depth="target_depth_shadow"	target_color_0="target_color_shadow"/> 
+        <framebuffer name="framebuffer_g_buffer"		target_depth="target_depth"		target_color_0="target_color_normal"/>      
+        <framebuffer name="framebuffer_light_pass"      						target_color_0="target_color_Light_pass"/>
+	<framebuffer name="framebuffer_light_pre_pass"		target_depth="target_depth"		target_color_0="target_color_Light_pre_pass"/>    
+    </framebuffer_list>
+
+    <render_pass_list>
+        <render_pass type="ShadowRenderer" framebuffer="framebuffer_shadow_renderer" attachment_operation="clear_color_depth"/>
+
+        <render_pass type="RendererGBuffer" framebuffer="framebuffer_g_buffer" attachment_operation="clear_color_depth"/>
+
+		<render_pass type="FullScreenEffectLightPass" framebuffer="framebuffer_light_pass" >
+            <input id="input_texture_normal_shininess"  value="target_color_normal"/>
+            <input id="input_texture_depth"             value="target_depth"/>
+            <input id="input_texture_SSAO"              value="target_color_normal"/>
+        </render_pass>
+
+        <render_pass type="LightPrePassRenderer" framebuffer="framebuffer_light_pre_pass" attachment_operation="clear_color_depth">
+            <input id="light_texture"                   value="target_color_Light_pass"/>
+            <input id="shadow_texture"                  value="target_color_shadow"/>
+        </render_pass>
+
+        <render_pass type="RendererPrimitive" framebuffer="framebuffer_light_pre_pass">
+            <input id="render_filter"                   value="3D"/>
+        </render_pass>
+
+        <render_pass type="RendererBillboard" framebuffer="framebuffer_light_pre_pass"/>
+
+        <render_pass type="Renderer2D" framebuffer="framebuffer_light_pre_pass"/>
+        
+        <render_pass type="RendererPrimitive" framebuffer="framebuffer_light_pre_pass">
+            <input id="render_filter"                   value="2D"/>
+        </render_pass>
+
+        <render_pass type="FullScreenEffectBlit" framebuffer="default_framebuffer" attachement_operation="clear_color_depth">
+			<input id="input_texture"					value="target_color_Light_pre_pass"/>
+			<input id="input_texture_depth"				value="target_depth"/>
+			<input id="screen_side"						value="fullscreen"/>
+	</render_pass>
+
+        <render_pass type="RendererGUI" framebuffer="default_framebuffer"/>
+
+    </render_pass_list>
+</render_graph>
