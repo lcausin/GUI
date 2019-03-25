@@ -1,2 +1,0 @@
-/opt/android-ndk/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ar qc libPlugin.a  CMakeFiles/Plugin.dir/Plugin.cpp.o
-/opt/android-ndk/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ranlib libPlugin.a
