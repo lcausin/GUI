@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/lcausin/Documents/GUI/Cooking/Android/build_android_apk_local_armv7a/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/home/lcausin/Documents/GUI/Cooking/Android/build_android_apk_local_armv7a/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "7,4,1",
+                        "startColumns": "1,1,1",
+                        "startOffsets": "278,141,13",
+                        "endLines": "9,6,3",
+                        "endColumns": "9,9,9",
+                        "endOffsets": "411,276,139"
+                    },
+                    "to": {
+                        "startLines": "4,7,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "137,275,415",
+                        "endLines": "6,9,12",
+                        "endColumns": "9,9,9",
+                        "endOffsets": "270,410,541"
+                    }
+                },
+                {
+                    "source": "/home/lcausin/Documents/GUI/Cooking/Android/build_android_apk_local_armv7a/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "3,2",
+                        "startColumns": "1,1",
+                        "startOffsets": "95,53",
+                        "endColumns": "41,41",
+                        "endOffsets": "135,93"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,92",
+                        "endColumns": "36,44",
+                        "endOffsets": "87,132"
+                    }
+                }
+            ]
+        }
+    ]
+}
