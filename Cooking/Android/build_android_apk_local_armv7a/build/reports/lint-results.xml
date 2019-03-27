@@ -13,7 +13,7 @@
         errorLine2="  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="studio">
         <location
-            file="/home/lcausin/Documents/GUI/Cooking/Android/build_android_apk_local_armv7a/build.gradle"
+            file="/tmp/saas_git_clone/Cooking/Android/build_android_apk_local_armv7a/build.gradle"
             line="8"
             column="3"/>
     </issue>
@@ -30,7 +30,7 @@
         errorLine2=" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="studio">
         <location
-            file="/home/lcausin/Documents/GUI/Cooking/Android/build_android_apk_local_armv7a/build.gradle"
+            file="/tmp/saas_git_clone/Cooking/Android/build_android_apk_local_armv7a/build.gradle"
             line="49"
             column="2"/>
     </issue>
@@ -47,7 +47,7 @@
         errorLine2=" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="studio">
         <location
-            file="/home/lcausin/Documents/GUI/Cooking/Android/build_android_apk_local_armv7a/build.gradle"
+            file="/tmp/saas_git_clone/Cooking/Android/build_android_apk_local_armv7a/build.gradle"
             line="50"
             column="2"/>
     </issue>
@@ -63,7 +63,7 @@
         errorLine1=" android:background=&quot;@drawable/splash&quot;>"
         errorLine2=" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="/home/lcausin/Documents/GUI/Cooking/Android/build_android_apk_local_armv7a/src/main/res/layout/launch_screen.xml"
+            file="/tmp/saas_git_clone/Cooking/Android/build_android_apk_local_armv7a/src/main/res/layout/launch_screen.xml"
             line="6"
             column="2"/>
     </issue>
@@ -80,7 +80,7 @@
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="studio">
         <location
-            file="/home/lcausin/Documents/GUI/Cooking/Android/build_android_apk_local_armv7a/src/main/res/values/strings.xml"
+            file="/tmp/saas_git_clone/Cooking/Android/build_android_apk_local_armv7a/src/main/res/values/strings.xml"
             line="4"
             column="10"/>
     </issue>
@@ -96,7 +96,7 @@
         url="http://developer.android.com/design/style/iconography.html"
         urls="http://developer.android.com/design/style/iconography.html">
         <location
-            file="/home/lcausin/Documents/GUI/Cooking/Android/build_android_apk_local_armv7a/src/main/res/drawable-hdpi/ic_launcher.png"/>
+            file="/tmp/saas_git_clone/Cooking/Android/build_android_apk_local_armv7a/src/main/res/drawable-hdpi/ic_launcher.png"/>
     </issue>
 
     <issue
@@ -110,7 +110,7 @@
         url="http://developer.android.com/guide/practices/screens_support.html"
         urls="http://developer.android.com/guide/practices/screens_support.html">
         <location
-            file="/home/lcausin/Documents/GUI/Cooking/Android/build_android_apk_local_armv7a/src/main/res/drawable/splash.jpg"/>
+            file="/tmp/saas_git_clone/Cooking/Android/build_android_apk_local_armv7a/src/main/res/drawable/splash.jpg"/>
     </issue>
 
     <issue
@@ -127,7 +127,7 @@
         errorLine2=" ^"
         quickfix="studio">
         <location
-            file="/home/lcausin/Documents/GUI/Cooking/Android/build_android_apk_local_armv7a/src/main/AndroidManifest.xml"
+            file="/tmp/saas_git_clone/Cooking/Android/build_android_apk_local_armv7a/src/main/AndroidManifest.xml"
             line="10"
             column="2"/>
     </issue>
